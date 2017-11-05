@@ -1,0 +1,21 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "a50034bebce8d8902c4a3b7f8d5e5fde"
+build_time: [563217796, 637174000]
+inputs:
+  "/Users/nitisha/Documents/My_Task/DemoApplication/Pods/Alamofire/Source/AFError.swift": [563119439, 0]
+  "/Users/nitisha/Documents/My_Task/DemoApplication/Pods/Alamofire/Source/Alamofire.swift": [563119439, 0]
+  "/Users/nitisha/Documents/My_Task/DemoApplication/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift": [563119439, 0]
+  "/Users/nitisha/Documents/My_Task/DemoApplication/Pods/Alamofire/Source/MultipartFormData.swift": [563119439, 0]
+  "/Users/nitisha/Documents/My_Task/DemoApplication/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [563119439, 0]
+  "/Users/nitisha/Documents/My_Task/DemoApplication/Pods/Alamofire/Source/Notifications.swift": [563119439, 0]
+  "/Users/nitisha/Documents/My_Task/DemoApplication/Pods/Alamofire/Source/ParameterEncoding.swift": [563119439, 0]
+  "/Users/nitisha/Documents/My_Task/DemoApplication/Pods/Alamofire/Source/Request.swift": [563119439, 0]
+  "/Users/nitisha/Documents/My_Task/DemoApplication/Pods/Alamofire/Source/Response.swift": [563119439, 0]
+  "/Users/nitisha/Documents/My_Task/DemoApplication/Pods/Alamofire/Source/ResponseSerialization.swift": [563119439, 0]
+  "/Users/nitisha/Documents/My_Task/DemoApplication/Pods/Alamofire/Source/Result.swift": [563119439, 0]
+  "/Users/nitisha/Documents/My_Task/DemoApplication/Pods/Alamofire/Source/ServerTrustPolicy.swift": [563119439, 0]
+  "/Users/nitisha/Documents/My_Task/DemoApplication/Pods/Alamofire/Source/SessionDelegate.swift": [563119439, 0]
+  "/Users/nitisha/Documents/My_Task/DemoApplication/Pods/Alamofire/Source/SessionManager.swift": [563119439, 0]
+  "/Users/nitisha/Documents/My_Task/DemoApplication/Pods/Alamofire/Source/TaskDelegate.swift": [563119439, 0]
+  "/Users/nitisha/Documents/My_Task/DemoApplication/Pods/Alamofire/Source/Timeline.swift": [563119439, 0]
+  "/Users/nitisha/Documents/My_Task/DemoApplication/Pods/Alamofire/Source/Validation.swift": [563119439, 0]

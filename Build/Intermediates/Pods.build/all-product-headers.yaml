@@ -1,0 +1,141 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Alamofire-Swift.h",
+          'external-contents': "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Alamofire-umbrella.h",
+          'external-contents': "/Users/nitisha/Documents/My_Task/DemoApplication/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Intermediates/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Products/Debug-iphonesimulator/AlamofireObjectMapper/AlamofireObjectMapper.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AlamofireObjectMapper-Swift.h",
+          'external-contents': "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Products/Debug-iphonesimulator/AlamofireObjectMapper/AlamofireObjectMapper.framework/Headers/AlamofireObjectMapper-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "AlamofireObjectMapper-umbrella.h",
+          'external-contents': "/Users/nitisha/Documents/My_Task/DemoApplication/Pods/Target Support Files/AlamofireObjectMapper/AlamofireObjectMapper-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Products/Debug-iphonesimulator/AlamofireObjectMapper/AlamofireObjectMapper.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Intermediates/Pods.build/Debug-iphonesimulator/AlamofireObjectMapper.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "ObjectMapper-Swift.h",
+          'external-contents': "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "ObjectMapper-umbrella.h",
+          'external-contents': "/Users/nitisha/Documents/My_Task/DemoApplication/Pods/Target Support Files/ObjectMapper/ObjectMapper-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Intermediates/Pods.build/Debug-iphonesimulator/ObjectMapper.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Products/Debug-iphonesimulator/Pods_DemoApplication.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-DemoApplication-umbrella.h",
+          'external-contents': "/Users/nitisha/Documents/My_Task/DemoApplication/Pods/Target Support Files/Pods-DemoApplication/Pods-DemoApplication-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_DemoApplication-Swift.h",
+          'external-contents': "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Products/Debug-iphonesimulator/Pods_DemoApplication.framework/Headers/Pods_DemoApplication-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Products/Debug-iphonesimulator/Pods_DemoApplication.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-DemoApplication.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Products/Debug-iphonesimulator/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "RAMAnimatedTabBarController-Swift.h",
+          'external-contents': "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Products/Debug-iphonesimulator/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework/Headers/RAMAnimatedTabBarController-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "RAMAnimatedTabBarController-umbrella.h",
+          'external-contents': "/Users/nitisha/Documents/My_Task/DemoApplication/Pods/Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Products/Debug-iphonesimulator/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Intermediates/Pods.build/Debug-iphonesimulator/RAMAnimatedTabBarController.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

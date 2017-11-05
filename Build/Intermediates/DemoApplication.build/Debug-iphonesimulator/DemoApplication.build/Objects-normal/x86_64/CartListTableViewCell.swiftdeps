@@ -1,0 +1,358 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CartListTableViewCell"
+provides-nominal:
+- "C15DemoApplication21CartListTableViewCell"
+provides-member:
+- ["C15DemoApplication21CartListTableViewCell", ""]
+provides-dynamic-lookup:
+- "awakeFromNib"
+- "btn_Call"
+- "btn_Remove"
+- "configureCell"
+- "lbl_Address"
+- "lbl_Price"
+- "lbl_ProductName"
+- "lbl_VendorName"
+- "setSelected"
+- "view_Background"
+depends-top-level:
+- "Bool"
+- "CartListTableViewCell"
+- "UIButton"
+- "UILabel"
+- "UITableViewCell"
+- "UIView"
+depends-member:
+- !private ["Ps9AnyObject", "addBorderToButton"]
+- !private ["Ps9AnyObject", "awakeFromNib"]
+- !private ["Ps9AnyObject", "btn_Call"]
+- !private ["Ps9AnyObject", "btn_Remove"]
+- !private ["Ps9AnyObject", "createCardView"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "setSelected"]
+- !private ["Ps9AnyObject", "view_Background"]
+- ["Ps9AnyObject", ""]
+- !private ["PSo15CALayerDelegate", "addBorderToButton"]
+- !private ["PSo15CALayerDelegate", "awakeFromNib"]
+- !private ["PSo15CALayerDelegate", "btn_Call"]
+- !private ["PSo15CALayerDelegate", "btn_Remove"]
+- !private ["PSo15CALayerDelegate", "createCardView"]
+- !private ["PSo15CALayerDelegate", "init"]
+- !private ["PSo15CALayerDelegate", "setSelected"]
+- !private ["PSo15CALayerDelegate", "view_Background"]
+- ["PSo15CALayerDelegate", ""]
+- !private ["Ps7CVarArg", "addBorderToButton"]
+- !private ["Ps7CVarArg", "awakeFromNib"]
+- !private ["Ps7CVarArg", "btn_Call"]
+- !private ["Ps7CVarArg", "btn_Remove"]
+- !private ["Ps7CVarArg", "createCardView"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "setSelected"]
+- !private ["Ps7CVarArg", "view_Background"]
+- ["Ps7CVarArg", ""]
+- ["C15DemoApplication21CartListTableViewCell", "Bool"]
+- ["C15DemoApplication21CartListTableViewCell", "UIButton"]
+- ["C15DemoApplication21CartListTableViewCell", "UILabel"]
+- ["C15DemoApplication21CartListTableViewCell", "UIView"]
+- ["C15DemoApplication21CartListTableViewCell", "awakeFromNib"]
+- ["C15DemoApplication21CartListTableViewCell", "btn_Call"]
+- ["C15DemoApplication21CartListTableViewCell", "btn_Remove"]
+- ["C15DemoApplication21CartListTableViewCell", "configureCell"]
+- ["C15DemoApplication21CartListTableViewCell", "deinit"]
+- ["C15DemoApplication21CartListTableViewCell", "init"]
+- ["C15DemoApplication21CartListTableViewCell", "lbl_Address"]
+- ["C15DemoApplication21CartListTableViewCell", "lbl_Price"]
+- ["C15DemoApplication21CartListTableViewCell", "lbl_ProductName"]
+- ["C15DemoApplication21CartListTableViewCell", "lbl_VendorName"]
+- ["C15DemoApplication21CartListTableViewCell", "setSelected"]
+- ["C15DemoApplication21CartListTableViewCell", "view_Background"]
+- !private ["Ps28CustomDebugStringConvertible", "addBorderToButton"]
+- !private ["Ps28CustomDebugStringConvertible", "awakeFromNib"]
+- !private ["Ps28CustomDebugStringConvertible", "btn_Call"]
+- !private ["Ps28CustomDebugStringConvertible", "btn_Remove"]
+- !private ["Ps28CustomDebugStringConvertible", "createCardView"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "setSelected"]
+- !private ["Ps28CustomDebugStringConvertible", "view_Background"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "addBorderToButton"]
+- !private ["Ps23CustomStringConvertible", "awakeFromNib"]
+- !private ["Ps23CustomStringConvertible", "btn_Call"]
+- !private ["Ps23CustomStringConvertible", "btn_Remove"]
+- !private ["Ps23CustomStringConvertible", "createCardView"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "setSelected"]
+- !private ["Ps23CustomStringConvertible", "view_Background"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "addBorderToButton"]
+- !private ["Ps9Equatable", "awakeFromNib"]
+- !private ["Ps9Equatable", "btn_Call"]
+- !private ["Ps9Equatable", "btn_Remove"]
+- !private ["Ps9Equatable", "createCardView"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "setSelected"]
+- !private ["Ps9Equatable", "view_Background"]
+- ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "addBorderToButton"]
+- !private ["Ps8Hashable", "awakeFromNib"]
+- !private ["Ps8Hashable", "btn_Call"]
+- !private ["Ps8Hashable", "btn_Remove"]
+- !private ["Ps8Hashable", "createCardView"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "setSelected"]
+- !private ["Ps8Hashable", "view_Background"]
+- ["Ps8Hashable", ""]
+- !private ["PSo8NSCoding", "addBorderToButton"]
+- !private ["PSo8NSCoding", "awakeFromNib"]
+- !private ["PSo8NSCoding", "btn_Call"]
+- !private ["PSo8NSCoding", "btn_Remove"]
+- !private ["PSo8NSCoding", "createCardView"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "setSelected"]
+- !private ["PSo8NSCoding", "view_Background"]
+- ["PSo8NSCoding", ""]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "UIButton"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "UIView"]
+- !private ["CSo8NSObject", "addBorderToButton"]
+- ["CSo8NSObject", "awakeFromNib"]
+- ["CSo8NSObject", "btn_Call"]
+- ["CSo8NSObject", "btn_Remove"]
+- ["CSo8NSObject", "configureCell"]
+- !private ["CSo8NSObject", "createCardView"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "lbl_Address"]
+- ["CSo8NSObject", "lbl_Price"]
+- ["CSo8NSObject", "lbl_ProductName"]
+- ["CSo8NSObject", "lbl_VendorName"]
+- ["CSo8NSObject", "setSelected"]
+- ["CSo8NSObject", "view_Background"]
+- !private ["PSo16NSObjectProtocol", "addBorderToButton"]
+- !private ["PSo16NSObjectProtocol", "awakeFromNib"]
+- !private ["PSo16NSObjectProtocol", "btn_Call"]
+- !private ["PSo16NSObjectProtocol", "btn_Remove"]
+- !private ["PSo16NSObjectProtocol", "createCardView"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "setSelected"]
+- !private ["PSo16NSObjectProtocol", "view_Background"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo29UIAccessibilityIdentification", "addBorderToButton"]
+- !private ["PSo29UIAccessibilityIdentification", "awakeFromNib"]
+- !private ["PSo29UIAccessibilityIdentification", "btn_Call"]
+- !private ["PSo29UIAccessibilityIdentification", "btn_Remove"]
+- !private ["PSo29UIAccessibilityIdentification", "createCardView"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "setSelected"]
+- !private ["PSo29UIAccessibilityIdentification", "view_Background"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "addBorderToButton"]
+- !private ["PSo12UIAppearance", "awakeFromNib"]
+- !private ["PSo12UIAppearance", "btn_Call"]
+- !private ["PSo12UIAppearance", "btn_Remove"]
+- !private ["PSo12UIAppearance", "createCardView"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "setSelected"]
+- !private ["PSo12UIAppearance", "view_Background"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "addBorderToButton"]
+- !private ["PSo21UIAppearanceContainer", "awakeFromNib"]
+- !private ["PSo21UIAppearanceContainer", "btn_Call"]
+- !private ["PSo21UIAppearanceContainer", "btn_Remove"]
+- !private ["PSo21UIAppearanceContainer", "createCardView"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "setSelected"]
+- !private ["PSo21UIAppearanceContainer", "view_Background"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo8UIButton", "addBorderToButton"]
+- !private ["CSo9UIControl", "addBorderToButton"]
+- !private ["PSo17UICoordinateSpace", "addBorderToButton"]
+- !private ["PSo17UICoordinateSpace", "awakeFromNib"]
+- !private ["PSo17UICoordinateSpace", "btn_Call"]
+- !private ["PSo17UICoordinateSpace", "btn_Remove"]
+- !private ["PSo17UICoordinateSpace", "createCardView"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "setSelected"]
+- !private ["PSo17UICoordinateSpace", "view_Background"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "addBorderToButton"]
+- !private ["PSo13UIDynamicItem", "awakeFromNib"]
+- !private ["PSo13UIDynamicItem", "btn_Call"]
+- !private ["PSo13UIDynamicItem", "btn_Remove"]
+- !private ["PSo13UIDynamicItem", "createCardView"]
+- !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "setSelected"]
+- !private ["PSo13UIDynamicItem", "view_Background"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["PSo18UIFocusEnvironment", "addBorderToButton"]
+- !private ["PSo18UIFocusEnvironment", "awakeFromNib"]
+- !private ["PSo18UIFocusEnvironment", "btn_Call"]
+- !private ["PSo18UIFocusEnvironment", "btn_Remove"]
+- !private ["PSo18UIFocusEnvironment", "createCardView"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "setSelected"]
+- !private ["PSo18UIFocusEnvironment", "view_Background"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "addBorderToButton"]
+- !private ["PSo11UIFocusItem", "awakeFromNib"]
+- !private ["PSo11UIFocusItem", "btn_Call"]
+- !private ["PSo11UIFocusItem", "btn_Remove"]
+- !private ["PSo11UIFocusItem", "createCardView"]
+- !private ["PSo11UIFocusItem", "init"]
+- !private ["PSo11UIFocusItem", "setSelected"]
+- !private ["PSo11UIFocusItem", "view_Background"]
+- ["PSo11UIFocusItem", ""]
+- !private ["PSo27UIGestureRecognizerDelegate", "awakeFromNib"]
+- !private ["PSo27UIGestureRecognizerDelegate", "btn_Call"]
+- !private ["PSo27UIGestureRecognizerDelegate", "btn_Remove"]
+- !private ["PSo27UIGestureRecognizerDelegate", "init"]
+- !private ["PSo27UIGestureRecognizerDelegate", "setSelected"]
+- !private ["PSo27UIGestureRecognizerDelegate", "view_Background"]
+- ["PSo27UIGestureRecognizerDelegate", ""]
+- ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "UIButton"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "UIView"]
+- !private ["CSo11UIResponder", "addBorderToButton"]
+- ["CSo11UIResponder", "awakeFromNib"]
+- ["CSo11UIResponder", "btn_Call"]
+- ["CSo11UIResponder", "btn_Remove"]
+- ["CSo11UIResponder", "configureCell"]
+- !private ["CSo11UIResponder", "createCardView"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "lbl_Address"]
+- ["CSo11UIResponder", "lbl_Price"]
+- ["CSo11UIResponder", "lbl_ProductName"]
+- ["CSo11UIResponder", "lbl_VendorName"]
+- ["CSo11UIResponder", "setSelected"]
+- ["CSo11UIResponder", "view_Background"]
+- !private ["PSo30UIResponderStandardEditActions", "addBorderToButton"]
+- !private ["PSo30UIResponderStandardEditActions", "awakeFromNib"]
+- !private ["PSo30UIResponderStandardEditActions", "btn_Call"]
+- !private ["PSo30UIResponderStandardEditActions", "btn_Remove"]
+- !private ["PSo30UIResponderStandardEditActions", "createCardView"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "setSelected"]
+- !private ["PSo30UIResponderStandardEditActions", "view_Background"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- ["CSo15UITableViewCell", "Bool"]
+- ["CSo15UITableViewCell", "UIButton"]
+- ["CSo15UITableViewCell", "UILabel"]
+- ["CSo15UITableViewCell", "UIView"]
+- ["CSo15UITableViewCell", "awakeFromNib"]
+- ["CSo15UITableViewCell", "btn_Call"]
+- ["CSo15UITableViewCell", "btn_Remove"]
+- ["CSo15UITableViewCell", "configureCell"]
+- ["CSo15UITableViewCell", "init"]
+- ["CSo15UITableViewCell", "lbl_Address"]
+- ["CSo15UITableViewCell", "lbl_Price"]
+- ["CSo15UITableViewCell", "lbl_ProductName"]
+- ["CSo15UITableViewCell", "lbl_VendorName"]
+- ["CSo15UITableViewCell", "setSelected"]
+- ["CSo15UITableViewCell", "view_Background"]
+- ["CSo15UITableViewCell", ""]
+- !private ["PSo18UITraitEnvironment", "addBorderToButton"]
+- !private ["PSo18UITraitEnvironment", "awakeFromNib"]
+- !private ["PSo18UITraitEnvironment", "btn_Call"]
+- !private ["PSo18UITraitEnvironment", "btn_Remove"]
+- !private ["PSo18UITraitEnvironment", "createCardView"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "setSelected"]
+- !private ["PSo18UITraitEnvironment", "view_Background"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "Bool"]
+- ["CSo6UIView", "UIButton"]
+- ["CSo6UIView", "UILabel"]
+- ["CSo6UIView", "UIView"]
+- !private ["CSo6UIView", "addBorderToButton"]
+- ["CSo6UIView", "awakeFromNib"]
+- ["CSo6UIView", "btn_Call"]
+- ["CSo6UIView", "btn_Remove"]
+- ["CSo6UIView", "configureCell"]
+- !private ["CSo6UIView", "createCardView"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "lbl_Address"]
+- ["CSo6UIView", "lbl_Price"]
+- ["CSo6UIView", "lbl_ProductName"]
+- ["CSo6UIView", "lbl_VendorName"]
+- ["CSo6UIView", "setSelected"]
+- ["CSo6UIView", "view_Background"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "addBorderToButton"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "awakeFromNib"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "btn_Call"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "btn_Remove"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "createCardView"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "setSelected"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "view_Background"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", ""]
+- !private ["Ps9_Hashable", "addBorderToButton"]
+- !private ["Ps9_Hashable", "awakeFromNib"]
+- !private ["Ps9_Hashable", "btn_Call"]
+- !private ["Ps9_Hashable", "btn_Remove"]
+- !private ["Ps9_Hashable", "createCardView"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "setSelected"]
+- !private ["Ps9_Hashable", "view_Background"]
+- ["Ps9_Hashable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- "C15DemoApplication21CartListTableViewCell"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "CSo8UIButton"
+- !private "CSo9UIControl"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
+- "PSo27UIGestureRecognizerDelegate"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "CSo15UITableViewCell"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Products/Debug-iphonesimulator/AlamofireObjectMapper/AlamofireObjectMapper.framework/Modules/AlamofireObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
+- "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Products/Debug-iphonesimulator/AlamofireObjectMapper/AlamofireObjectMapper.framework/Headers/AlamofireObjectMapper-umbrella.h"
+- "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Products/Debug-iphonesimulator/AlamofireObjectMapper/AlamofireObjectMapper.framework/Headers/AlamofireObjectMapper-Swift.h"
+- "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/module.modulemap"
+- "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Products/Debug-iphonesimulator/AlamofireObjectMapper/AlamofireObjectMapper.framework/Modules/module.modulemap"
+interface-hash: "4e894c39062de6f55426d76628882d74"

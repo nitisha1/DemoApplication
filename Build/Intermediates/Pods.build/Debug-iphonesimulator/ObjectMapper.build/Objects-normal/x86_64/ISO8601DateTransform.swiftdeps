@@ -1,0 +1,179 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ISO8601DateTransform"
+provides-nominal:
+- "C12ObjectMapper20ISO8601DateTransform"
+provides-member:
+- ["CSo13DateFormatter", ""]
+- ["C12ObjectMapper20ISO8601DateTransform", ""]
+- ["CSo13DateFormatter", "init"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "DateFormatter"
+- "DateFormatterTransform"
+- "ISO8601DateTransform"
+- !private "Locale"
+- "String"
+- "StringLiteralType"
+depends-member:
+- ["Ps9AnyObject", "DateFormatter"]
+- !private ["Ps9AnyObject", "ISO8601DateTransform"]
+- !private ["Ps9AnyObject", "Locale"]
+- !private ["Ps9AnyObject", "dateFormat"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "locale"]
+- !private ["Ps9AnyObject", "reusableISODateFormatter"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps7CVarArg", "Locale"]
+- !private ["Ps7CVarArg", "dateFormat"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "locale"]
+- ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "Locale"]
+- !private ["Ps28CustomDebugStringConvertible", "dateFormat"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "locale"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "Locale"]
+- !private ["Ps23CustomStringConvertible", "dateFormat"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "locale"]
+- !private ["CSo13DateFormatter", "Locale"]
+- ["CSo13DateFormatter", "String"]
+- !private ["CSo13DateFormatter", "dateFormat"]
+- ["CSo13DateFormatter", "init"]
+- !private ["CSo13DateFormatter", "locale"]
+- ["C12ObjectMapper22DateFormatterTransform", "DateFormatter"]
+- !private ["C12ObjectMapper22DateFormatterTransform", "ISO8601DateTransform"]
+- ["C12ObjectMapper22DateFormatterTransform", "init"]
+- ["C12ObjectMapper22DateFormatterTransform", "reusableISODateFormatter"]
+- ["C12ObjectMapper22DateFormatterTransform", ""]
+- !private ["Ps9Equatable", "Locale"]
+- !private ["Ps9Equatable", "dateFormat"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "locale"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["CSo9Formatter", "Locale"]
+- ["CSo9Formatter", "String"]
+- !private ["CSo9Formatter", "dateFormat"]
+- ["CSo9Formatter", "init"]
+- !private ["CSo9Formatter", "locale"]
+- !private ["Ps8Hashable", "Locale"]
+- !private ["Ps8Hashable", "dateFormat"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "locale"]
+- ["C12ObjectMapper20ISO8601DateTransform", "DateFormatter"]
+- !private ["C12ObjectMapper20ISO8601DateTransform", "ISO8601DateTransform"]
+- ["C12ObjectMapper20ISO8601DateTransform", "deinit"]
+- ["C12ObjectMapper20ISO8601DateTransform", "init"]
+- ["C12ObjectMapper20ISO8601DateTransform", "reusableISODateFormatter"]
+- !private ["V10Foundation6Locale", "init"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "Locale"]
+- !private ["PSo8NSCoding", "dateFormat"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "locale"]
+- !private ["PSo9NSCopying", "Locale"]
+- !private ["PSo9NSCopying", "dateFormat"]
+- ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "locale"]
+- ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "Locale"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "dateFormat"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "locale"]
+- !private ["PSo16NSObjectProtocol", "Locale"]
+- !private ["PSo16NSObjectProtocol", "dateFormat"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "locale"]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- !private ["P10Foundation20ReferenceConvertible", "init"]
+- !private ["Vs12StaticString", "init"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- ["P12ObjectMapper13TransformType", "DateFormatter"]
+- !private ["P12ObjectMapper13TransformType", "ISO8601DateTransform"]
+- !private ["P12ObjectMapper13TransformType", "init"]
+- !private ["P12ObjectMapper13TransformType", "reusableISODateFormatter"]
+- ["P12ObjectMapper13TransformType", ""]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps33_ExpressibleByStringInterpolation", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "Locale"]
+- !private ["Ps9_Hashable", "dateFormat"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "locale"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps7CVarArg"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "CSo13DateFormatter"
+- "C12ObjectMapper22DateFormatterTransform"
+- "Ps9Equatable"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "CSo9Formatter"
+- "Ps8Hashable"
+- "C12ObjectMapper20ISO8601DateTransform"
+- !private "V10Foundation6Locale"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- !private "P10Foundation20ReferenceConvertible"
+- !private "Vs12StaticString"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "P12ObjectMapper13TransformType"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps33_ExpressibleByStringInterpolation"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/nitisha/Documents/My_Task/DemoApplication/Pods/Target Support Files/ObjectMapper/ObjectMapper-umbrella.h"
+- "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Intermediates/Pods.build/Debug-iphonesimulator/ObjectMapper.build/unextended-module.modulemap"
+interface-hash: "e7d1fb1bb0da718de9aed2940af384fa"

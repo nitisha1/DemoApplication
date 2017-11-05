@@ -1,0 +1,265 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CollectionViewCell"
+provides-nominal:
+- "C15DemoApplication18CollectionViewCell"
+provides-member:
+- ["C15DemoApplication18CollectionViewCell", ""]
+provides-dynamic-lookup:
+- "awakeFromNib"
+- "img_Product"
+- "lbl_Price"
+- "lbl_PriceValue"
+- "lbl_VendorAdd"
+- "lbl_productName"
+- "lbl_vendorName"
+- "setUpCell"
+- "view_background"
+depends-top-level:
+- "CollectionViewCell"
+- "UICollectionViewCell"
+- "UIImageView"
+- "UILabel"
+- "UIView"
+depends-member:
+- !private ["Ps9AnyObject", "awakeFromNib"]
+- !private ["Ps9AnyObject", "createCardView"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "view_background"]
+- ["Ps9AnyObject", ""]
+- !private ["PSo15CALayerDelegate", "awakeFromNib"]
+- !private ["PSo15CALayerDelegate", "createCardView"]
+- !private ["PSo15CALayerDelegate", "init"]
+- !private ["PSo15CALayerDelegate", "view_background"]
+- ["PSo15CALayerDelegate", ""]
+- !private ["Ps7CVarArg", "awakeFromNib"]
+- !private ["Ps7CVarArg", "createCardView"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "view_background"]
+- ["Ps7CVarArg", ""]
+- ["C15DemoApplication18CollectionViewCell", "UIImageView"]
+- ["C15DemoApplication18CollectionViewCell", "UILabel"]
+- ["C15DemoApplication18CollectionViewCell", "UIView"]
+- ["C15DemoApplication18CollectionViewCell", "awakeFromNib"]
+- ["C15DemoApplication18CollectionViewCell", "deinit"]
+- ["C15DemoApplication18CollectionViewCell", "img_Product"]
+- ["C15DemoApplication18CollectionViewCell", "init"]
+- ["C15DemoApplication18CollectionViewCell", "lbl_Price"]
+- ["C15DemoApplication18CollectionViewCell", "lbl_PriceValue"]
+- ["C15DemoApplication18CollectionViewCell", "lbl_VendorAdd"]
+- ["C15DemoApplication18CollectionViewCell", "lbl_productName"]
+- ["C15DemoApplication18CollectionViewCell", "lbl_vendorName"]
+- ["C15DemoApplication18CollectionViewCell", "setUpCell"]
+- ["C15DemoApplication18CollectionViewCell", "view_background"]
+- !private ["Ps28CustomDebugStringConvertible", "awakeFromNib"]
+- !private ["Ps28CustomDebugStringConvertible", "createCardView"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "view_background"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "awakeFromNib"]
+- !private ["Ps23CustomStringConvertible", "createCardView"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "view_background"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "awakeFromNib"]
+- !private ["Ps9Equatable", "createCardView"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "view_background"]
+- ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "awakeFromNib"]
+- !private ["Ps8Hashable", "createCardView"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "view_background"]
+- ["Ps8Hashable", ""]
+- !private ["PSo8NSCoding", "awakeFromNib"]
+- !private ["PSo8NSCoding", "createCardView"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "view_background"]
+- ["PSo8NSCoding", ""]
+- ["CSo8NSObject", "UIImageView"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "UIView"]
+- ["CSo8NSObject", "awakeFromNib"]
+- !private ["CSo8NSObject", "createCardView"]
+- ["CSo8NSObject", "img_Product"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "lbl_Price"]
+- ["CSo8NSObject", "lbl_PriceValue"]
+- ["CSo8NSObject", "lbl_VendorAdd"]
+- ["CSo8NSObject", "lbl_productName"]
+- ["CSo8NSObject", "lbl_vendorName"]
+- ["CSo8NSObject", "setUpCell"]
+- ["CSo8NSObject", "view_background"]
+- !private ["PSo16NSObjectProtocol", "awakeFromNib"]
+- !private ["PSo16NSObjectProtocol", "createCardView"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "view_background"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo29UIAccessibilityIdentification", "awakeFromNib"]
+- !private ["PSo29UIAccessibilityIdentification", "createCardView"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "view_background"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "awakeFromNib"]
+- !private ["PSo12UIAppearance", "createCardView"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "view_background"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "awakeFromNib"]
+- !private ["PSo21UIAppearanceContainer", "createCardView"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "view_background"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["CSo24UICollectionReusableView", "UIImageView"]
+- ["CSo24UICollectionReusableView", "UILabel"]
+- ["CSo24UICollectionReusableView", "UIView"]
+- ["CSo24UICollectionReusableView", "awakeFromNib"]
+- ["CSo24UICollectionReusableView", "img_Product"]
+- ["CSo24UICollectionReusableView", "init"]
+- ["CSo24UICollectionReusableView", "lbl_Price"]
+- ["CSo24UICollectionReusableView", "lbl_PriceValue"]
+- ["CSo24UICollectionReusableView", "lbl_VendorAdd"]
+- ["CSo24UICollectionReusableView", "lbl_productName"]
+- ["CSo24UICollectionReusableView", "lbl_vendorName"]
+- ["CSo24UICollectionReusableView", "setUpCell"]
+- ["CSo24UICollectionReusableView", "view_background"]
+- ["CSo20UICollectionViewCell", "UIImageView"]
+- ["CSo20UICollectionViewCell", "UILabel"]
+- ["CSo20UICollectionViewCell", "UIView"]
+- ["CSo20UICollectionViewCell", "awakeFromNib"]
+- ["CSo20UICollectionViewCell", "img_Product"]
+- ["CSo20UICollectionViewCell", "init"]
+- ["CSo20UICollectionViewCell", "lbl_Price"]
+- ["CSo20UICollectionViewCell", "lbl_PriceValue"]
+- ["CSo20UICollectionViewCell", "lbl_VendorAdd"]
+- ["CSo20UICollectionViewCell", "lbl_productName"]
+- ["CSo20UICollectionViewCell", "lbl_vendorName"]
+- ["CSo20UICollectionViewCell", "setUpCell"]
+- ["CSo20UICollectionViewCell", "view_background"]
+- ["CSo20UICollectionViewCell", ""]
+- !private ["PSo17UICoordinateSpace", "awakeFromNib"]
+- !private ["PSo17UICoordinateSpace", "createCardView"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "view_background"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "awakeFromNib"]
+- !private ["PSo13UIDynamicItem", "createCardView"]
+- !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "view_background"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["PSo18UIFocusEnvironment", "awakeFromNib"]
+- !private ["PSo18UIFocusEnvironment", "createCardView"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "view_background"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "awakeFromNib"]
+- !private ["PSo11UIFocusItem", "createCardView"]
+- !private ["PSo11UIFocusItem", "init"]
+- !private ["PSo11UIFocusItem", "view_background"]
+- ["PSo11UIFocusItem", ""]
+- ["CSo11UIResponder", "UIImageView"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "UIView"]
+- ["CSo11UIResponder", "awakeFromNib"]
+- !private ["CSo11UIResponder", "createCardView"]
+- ["CSo11UIResponder", "img_Product"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "lbl_Price"]
+- ["CSo11UIResponder", "lbl_PriceValue"]
+- ["CSo11UIResponder", "lbl_VendorAdd"]
+- ["CSo11UIResponder", "lbl_productName"]
+- ["CSo11UIResponder", "lbl_vendorName"]
+- ["CSo11UIResponder", "setUpCell"]
+- ["CSo11UIResponder", "view_background"]
+- !private ["PSo30UIResponderStandardEditActions", "awakeFromNib"]
+- !private ["PSo30UIResponderStandardEditActions", "createCardView"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "view_background"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo18UITraitEnvironment", "awakeFromNib"]
+- !private ["PSo18UITraitEnvironment", "createCardView"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "view_background"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "UIImageView"]
+- ["CSo6UIView", "UILabel"]
+- ["CSo6UIView", "UIView"]
+- ["CSo6UIView", "awakeFromNib"]
+- !private ["CSo6UIView", "createCardView"]
+- ["CSo6UIView", "img_Product"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "lbl_Price"]
+- ["CSo6UIView", "lbl_PriceValue"]
+- ["CSo6UIView", "lbl_VendorAdd"]
+- ["CSo6UIView", "lbl_productName"]
+- ["CSo6UIView", "lbl_vendorName"]
+- ["CSo6UIView", "setUpCell"]
+- ["CSo6UIView", "view_background"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "awakeFromNib"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "createCardView"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "view_background"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", ""]
+- !private ["Ps9_Hashable", "awakeFromNib"]
+- !private ["Ps9_Hashable", "createCardView"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "view_background"]
+- ["Ps9_Hashable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- "C15DemoApplication18CollectionViewCell"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "CSo24UICollectionReusableView"
+- "CSo20UICollectionViewCell"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Products/Debug-iphonesimulator/AlamofireObjectMapper/AlamofireObjectMapper.framework/Modules/AlamofireObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
+- "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Products/Debug-iphonesimulator/AlamofireObjectMapper/AlamofireObjectMapper.framework/Headers/AlamofireObjectMapper-umbrella.h"
+- "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Products/Debug-iphonesimulator/AlamofireObjectMapper/AlamofireObjectMapper.framework/Headers/AlamofireObjectMapper-Swift.h"
+- "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/module.modulemap"
+- "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Products/Debug-iphonesimulator/AlamofireObjectMapper/AlamofireObjectMapper.framework/Modules/module.modulemap"
+interface-hash: "5d7d9994995785cedab8c649d9f1db8b"

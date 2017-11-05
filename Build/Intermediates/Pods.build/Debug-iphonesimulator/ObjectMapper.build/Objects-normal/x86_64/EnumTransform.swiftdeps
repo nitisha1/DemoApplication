@@ -1,0 +1,58 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "EnumTransform"
+provides-nominal:
+- "C12ObjectMapper13EnumTransform"
+provides-member:
+- ["C12ObjectMapper13EnumTransform", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "CastingPrecedence"
+- "EnumTransform"
+- "RawRepresentable"
+- "TransformType"
+depends-member:
+- !private ["Ps9AnyObject", "T"]
+- ["Ps9AnyObject", "transformFromJSON"]
+- ["Ps9AnyObject", "transformToJSON"]
+- ["Ps9AnyObject", ""]
+- ["C12ObjectMapper13EnumTransform", "JSON"]
+- ["C12ObjectMapper13EnumTransform", "Object"]
+- ["C12ObjectMapper13EnumTransform", "T"]
+- ["C12ObjectMapper13EnumTransform", "deinit"]
+- ["C12ObjectMapper13EnumTransform", "init"]
+- ["C12ObjectMapper13EnumTransform", "transformFromJSON"]
+- ["C12ObjectMapper13EnumTransform", "transformToJSON"]
+- ["Ps16RawRepresentable", "RawValue"]
+- !private ["Ps16RawRepresentable", "init"]
+- !private ["Ps16RawRepresentable", "rawValue"]
+- !private ["P12ObjectMapper13TransformType", "T"]
+- ["P12ObjectMapper13TransformType", "transformFromJSON"]
+- ["P12ObjectMapper13TransformType", "transformToJSON"]
+- ["P12ObjectMapper13TransformType", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "C12ObjectMapper13EnumTransform"
+- "Ps16RawRepresentable"
+- "P12ObjectMapper13TransformType"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/nitisha/Documents/My_Task/DemoApplication/Pods/Target Support Files/ObjectMapper/ObjectMapper-umbrella.h"
+- "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Intermediates/Pods.build/Debug-iphonesimulator/ObjectMapper.build/unextended-module.modulemap"
+interface-hash: "4b86ed93096023bf0e000a8a9ba8c67f"

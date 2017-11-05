@@ -1,0 +1,21 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "fa2e3f80a43f4c61a9988a2306060d62"
+build_time: [563217805, 472650000]
+inputs:
+  "/Users/nitisha/Documents/My_Task/DemoApplication/DemoApplication/Application/AppDelegate.swift": [563130897, 0]
+  "/Users/nitisha/Documents/My_Task/DemoApplication/DemoApplication/Navigator/HomeViewNavigator.swift": [563124914, 0]
+  "/Users/nitisha/Documents/My_Task/DemoApplication/DemoApplication/ViewModel/CartViewModel.swift": [563123131, 0]
+  "/Users/nitisha/Documents/My_Task/DemoApplication/DemoApplication/ViewModel/HomeViewModel.swift": [563140590, 0]
+  "/Users/nitisha/Documents/My_Task/DemoApplication/DemoApplication/ViewController.swift": [563117317, 0]
+  "/Users/nitisha/Documents/My_Task/DemoApplication/DemoApplication/Utilities/GenericExtensions.swift": [563186533, 0]
+  "/Users/nitisha/Documents/My_Task/DemoApplication/DemoApplication/ViewModel/ProductViewModel.swift": [563123091, 0]
+  "/Users/nitisha/Documents/My_Task/DemoApplication/DemoApplication/CustomCell/CartListTableViewCell.swift": [563173170, 0]
+  "/Users/nitisha/Documents/My_Task/DemoApplication/DemoApplication/View/ProductListViewController.swift": [563186069, 0]
+  "/Users/nitisha/Documents/My_Task/DemoApplication/DemoApplication/Model/Items.swift": [563137895, 0]
+  "/Users/nitisha/Documents/My_Task/DemoApplication/DemoApplication/Assembler/HomeAssembler.swift": [563126371, 0]
+  "/Users/nitisha/Documents/My_Task/DemoApplication/DemoApplication/CustomCell/CollectionViewCell.swift": [563186070, 0]
+  "/Users/nitisha/Documents/My_Task/DemoApplication/DemoApplication/View/HomeBarViewController.swift": [563217803, 0]
+  "/Users/nitisha/Documents/My_Task/DemoApplication/DemoApplication/Model/Products.swift": [563120980, 0]
+  "/Users/nitisha/Documents/My_Task/DemoApplication/DemoApplication/View/CartListingViewController.swift": [563186488, 0]
+  "/Users/nitisha/Documents/My_Task/DemoApplication/DemoApplication/Assembler/AppAssembler.swift": [563121758, 0]
+  "/Users/nitisha/Documents/My_Task/DemoApplication/DemoApplication/Utilities/Constants.swift": [563120943, 0]

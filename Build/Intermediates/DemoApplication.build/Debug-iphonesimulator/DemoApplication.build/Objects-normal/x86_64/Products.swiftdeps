@@ -1,0 +1,147 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Products"
+provides-nominal:
+- "C15DemoApplication8Products"
+provides-member:
+- ["C15DemoApplication8Products", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "<-"
+- "Map"
+- "Mappable"
+- !private "ProductModelKeys"
+- "Products"
+- "String"
+depends-member:
+- !private ["Ps9AnyObject", "ProductModelKeys"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "mapping"]
+- !private ["Ps9AnyObject", "phoneNumber"]
+- !private ["Ps9AnyObject", "price"]
+- !private ["Ps9AnyObject", "productGallery"]
+- !private ["Ps9AnyObject", "productImg"]
+- !private ["Ps9AnyObject", "productname"]
+- !private ["Ps9AnyObject", "subscript"]
+- !private ["Ps9AnyObject", "vendoraddress"]
+- !private ["Ps9AnyObject", "vendorname"]
+- ["Ps9AnyObject", ""]
+- !private ["P12ObjectMapper12BaseMappable", "ProductModelKeys"]
+- ["P12ObjectMapper12BaseMappable", "init"]
+- ["P12ObjectMapper12BaseMappable", "mapping"]
+- !private ["P12ObjectMapper12BaseMappable", "phoneNumber"]
+- !private ["P12ObjectMapper12BaseMappable", "price"]
+- !private ["P12ObjectMapper12BaseMappable", "productGallery"]
+- !private ["P12ObjectMapper12BaseMappable", "productImg"]
+- !private ["P12ObjectMapper12BaseMappable", "productname"]
+- !private ["P12ObjectMapper12BaseMappable", "vendoraddress"]
+- !private ["P12ObjectMapper12BaseMappable", "vendorname"]
+- ["P12ObjectMapper12BaseMappable", ""]
+- !private ["Ps9Equatable", "phoneNumber"]
+- !private ["Ps9Equatable", "price"]
+- !private ["Ps9Equatable", "productGallery"]
+- !private ["Ps9Equatable", "productImg"]
+- !private ["Ps9Equatable", "productname"]
+- !private ["Ps9Equatable", "rawValue"]
+- !private ["Ps9Equatable", "vendoraddress"]
+- !private ["Ps9Equatable", "vendorname"]
+- !private ["Ps8Hashable", "phoneNumber"]
+- !private ["Ps8Hashable", "price"]
+- !private ["Ps8Hashable", "productGallery"]
+- !private ["Ps8Hashable", "productImg"]
+- !private ["Ps8Hashable", "productname"]
+- !private ["Ps8Hashable", "rawValue"]
+- !private ["Ps8Hashable", "vendoraddress"]
+- !private ["Ps8Hashable", "vendorname"]
+- !private ["C12ObjectMapper3Map", "subscript"]
+- !private ["P12ObjectMapper8Mappable", "ProductModelKeys"]
+- ["P12ObjectMapper8Mappable", "init"]
+- ["P12ObjectMapper8Mappable", "mapping"]
+- !private ["P12ObjectMapper8Mappable", "phoneNumber"]
+- !private ["P12ObjectMapper8Mappable", "price"]
+- !private ["P12ObjectMapper8Mappable", "productGallery"]
+- !private ["P12ObjectMapper8Mappable", "productImg"]
+- !private ["P12ObjectMapper8Mappable", "productname"]
+- !private ["P12ObjectMapper8Mappable", "vendoraddress"]
+- !private ["P12ObjectMapper8Mappable", "vendorname"]
+- ["P12ObjectMapper8Mappable", ""]
+- !private ["O15DemoApplication16ProductModelKeys", "deinit"]
+- !private ["O15DemoApplication16ProductModelKeys", "phoneNumber"]
+- !private ["O15DemoApplication16ProductModelKeys", "price"]
+- !private ["O15DemoApplication16ProductModelKeys", "productGallery"]
+- !private ["O15DemoApplication16ProductModelKeys", "productImg"]
+- !private ["O15DemoApplication16ProductModelKeys", "productname"]
+- !private ["O15DemoApplication16ProductModelKeys", "rawValue"]
+- !private ["O15DemoApplication16ProductModelKeys", "vendoraddress"]
+- !private ["O15DemoApplication16ProductModelKeys", "vendorname"]
+- ["C15DemoApplication8Products", "Map"]
+- !private ["C15DemoApplication8Products", "ProductModelKeys"]
+- ["C15DemoApplication8Products", "String"]
+- ["C15DemoApplication8Products", "deinit"]
+- ["C15DemoApplication8Products", "init"]
+- ["C15DemoApplication8Products", "mapping"]
+- ["C15DemoApplication8Products", "phoneNumber"]
+- ["C15DemoApplication8Products", "price"]
+- ["C15DemoApplication8Products", "productGallery"]
+- ["C15DemoApplication8Products", "productImg"]
+- ["C15DemoApplication8Products", "productname"]
+- ["C15DemoApplication8Products", "vendoraddress"]
+- ["C15DemoApplication8Products", "vendorname"]
+- !private ["Ps16RawRepresentable", "phoneNumber"]
+- !private ["Ps16RawRepresentable", "price"]
+- !private ["Ps16RawRepresentable", "productGallery"]
+- !private ["Ps16RawRepresentable", "productImg"]
+- !private ["Ps16RawRepresentable", "productname"]
+- !private ["Ps16RawRepresentable", "rawValue"]
+- !private ["Ps16RawRepresentable", "vendoraddress"]
+- !private ["Ps16RawRepresentable", "vendorname"]
+- !private ["Ps9_Hashable", "phoneNumber"]
+- !private ["Ps9_Hashable", "price"]
+- !private ["Ps9_Hashable", "productGallery"]
+- !private ["Ps9_Hashable", "productImg"]
+- !private ["Ps9_Hashable", "productname"]
+- !private ["Ps9_Hashable", "rawValue"]
+- !private ["Ps9_Hashable", "vendoraddress"]
+- !private ["Ps9_Hashable", "vendorname"]
+depends-nominal:
+- "Ps9AnyObject"
+- "P12ObjectMapper12BaseMappable"
+- !private "Ps9Equatable"
+- !private "Ps8Hashable"
+- !private "C12ObjectMapper3Map"
+- "P12ObjectMapper8Mappable"
+- !private "O15DemoApplication16ProductModelKeys"
+- "C15DemoApplication8Products"
+- !private "Ps16RawRepresentable"
+- !private "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Products/Debug-iphonesimulator/AlamofireObjectMapper/AlamofireObjectMapper.framework/Modules/AlamofireObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
+- "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Products/Debug-iphonesimulator/AlamofireObjectMapper/AlamofireObjectMapper.framework/Headers/AlamofireObjectMapper-umbrella.h"
+- "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Products/Debug-iphonesimulator/AlamofireObjectMapper/AlamofireObjectMapper.framework/Headers/AlamofireObjectMapper-Swift.h"
+- "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/module.modulemap"
+- "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Products/Debug-iphonesimulator/AlamofireObjectMapper/AlamofireObjectMapper.framework/Modules/module.modulemap"
+interface-hash: "443135df575e03c0b68af4eb3332fb91"

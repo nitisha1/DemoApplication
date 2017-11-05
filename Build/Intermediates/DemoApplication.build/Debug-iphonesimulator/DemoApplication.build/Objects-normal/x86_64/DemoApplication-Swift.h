@@ -170,12 +170,12 @@ SWIFT_CLASS("_TtC15DemoApplication21CartListTableViewCell")
 @property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified btn_Remove;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified lbl_VendorName;
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated;
-- (void)configureCell;
 - (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @class UITableView;
+@class NSNotification;
 @class NSBundle;
 
 SWIFT_CLASS("_TtC15DemoApplication25CartListingViewController")
@@ -185,6 +185,8 @@ SWIFT_CLASS("_TtC15DemoApplication25CartListingViewController")
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (void)setUpView;
+- (void)addToCartWithNotification:(NSNotification * _Nonnull)notification;
+- (void)removeFromCart:(UIButton * _Nonnull)button;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
 
@@ -212,8 +214,9 @@ SWIFT_CLASS("_TtC15DemoApplication18CollectionViewCell")
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified lbl_vendorName;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified lbl_VendorAdd;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified lbl_PriceValue;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified btn_AddToCart;
 - (void)awakeFromNib;
-- (void)setUpCell;
+- (IBAction)action_AddToCart:(UIButton * _Nonnull)sender;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -249,11 +252,14 @@ SWIFT_CLASS("_TtC15DemoApplication25ProductListViewController")
 - (void)viewDidLoad;
 - (void)setCollectionViewCellsDisplayFor:(CGSize)size;
 - (void)didReceiveMemoryWarning;
+- (void)actionAddToCart:(UIButton * _Nonnull)button;
+- (void)removeFromCartWithNotification:(NSNotification * _Nonnull)notification;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
 
 
 @interface ProductListViewController (SWIFT_EXTENSION(DemoApplication))
+- (void)resfreshList;
 @end
 
 

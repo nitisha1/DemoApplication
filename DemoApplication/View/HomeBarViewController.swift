@@ -8,6 +8,10 @@
 
 import UIKit
 
+let notificationNameAddToCart = Notification.Name("AddToCart")
+let notificationNameRemoveFromCart = Notification.Name("RemoveFromCart")
+
+
 class HomeBarViewController: UITabBarController {
     
     
@@ -81,8 +85,7 @@ class HomeBarViewController: UITabBarController {
         else if item.tag == 2
         {
             self.navigationItem.title = "Cart"
-
-        }
+       }
         
     }
 

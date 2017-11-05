@@ -21,12 +21,16 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="EhW-ee-Uyt">
-                    <rect key="frame" x="0.0" y="0.0" width="375" height="613.5"/>
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="579"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="579" id="sJA-mb-lAl"/>
+                    </constraints>
                 </tableView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cAZ-Jp-7dm">
-                    <rect key="frame" x="0.0" y="646.5" width="375" height="20.5"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cAZ-Jp-7dm">
+                    <rect key="frame" x="0.0" y="593" width="375" height="26"/>
+                    <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="0.15393926059999999" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
@@ -34,13 +38,12 @@
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="cAZ-Jp-7dm" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="6mf-Xg-mIq"/>
+                <constraint firstItem="cAZ-Jp-7dm" firstAttribute="top" secondItem="EhW-ee-Uyt" secondAttribute="bottom" constant="14" id="8Dr-mG-d9K"/>
                 <constraint firstAttribute="trailing" secondItem="cAZ-Jp-7dm" secondAttribute="trailing" id="9oI-TC-mcW"/>
-                <constraint firstItem="EhW-ee-Uyt" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="D0W-gW-oZi"/>
-                <constraint firstItem="cAZ-Jp-7dm" firstAttribute="top" secondItem="EhW-ee-Uyt" secondAttribute="bottom" constant="33" id="Gp1-vQ-IVw"/>
-                <constraint firstItem="cAZ-Jp-7dm" firstAttribute="top" secondItem="EhW-ee-Uyt" secondAttribute="bottom" constant="33" id="L5z-Xq-bbx"/>
-                <constraint firstAttribute="bottom" secondItem="cAZ-Jp-7dm" secondAttribute="bottom" id="Wg3-LZ-Xgx"/>
-                <constraint firstAttribute="trailing" secondItem="EhW-ee-Uyt" secondAttribute="trailing" id="mfQ-ay-Tdc"/>
-                <constraint firstItem="EhW-ee-Uyt" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="sqK-Gu-OyA"/>
+                <constraint firstItem="EhW-ee-Uyt" firstAttribute="trailing" secondItem="cAZ-Jp-7dm" secondAttribute="trailing" id="BOC-0s-Ldb"/>
+                <constraint firstItem="EhW-ee-Uyt" firstAttribute="leading" secondItem="cAZ-Jp-7dm" secondAttribute="leading" id="Ulq-HP-0WR"/>
+                <constraint firstAttribute="bottom" secondItem="cAZ-Jp-7dm" secondAttribute="bottom" constant="48" id="Wg3-LZ-Xgx"/>
+                <constraint firstItem="EhW-ee-Uyt" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="XGA-cH-cm1"/>
             </constraints>
             <point key="canvasLocation" x="33.5" y="54.5"/>
         </view>

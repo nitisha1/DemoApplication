@@ -9,7 +9,6 @@ provides-dynamic-lookup:
 - "awakeFromNib"
 - "btn_Call"
 - "btn_Remove"
-- "configureCell"
 - "lbl_Address"
 - "lbl_Price"
 - "lbl_ProductName"
@@ -17,41 +16,71 @@ provides-dynamic-lookup:
 - "setSelected"
 - "view_Background"
 depends-top-level:
+- "AssignmentPrecedence"
 - "Bool"
 - "CartListTableViewCell"
+- "Products"
+- !private "StringLiteralType"
 - "UIButton"
 - "UILabel"
 - "UITableViewCell"
 - "UIView"
+- !private "UnicodeScalarType"
 depends-member:
 - !private ["Ps9AnyObject", "addBorderToButton"]
+- !private ["Ps9AnyObject", "appending"]
 - !private ["Ps9AnyObject", "awakeFromNib"]
 - !private ["Ps9AnyObject", "btn_Call"]
 - !private ["Ps9AnyObject", "btn_Remove"]
 - !private ["Ps9AnyObject", "createCardView"]
 - !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "lbl_Address"]
+- !private ["Ps9AnyObject", "lbl_Price"]
+- !private ["Ps9AnyObject", "lbl_ProductName"]
+- !private ["Ps9AnyObject", "lbl_VendorName"]
+- !private ["Ps9AnyObject", "price"]
+- !private ["Ps9AnyObject", "productname"]
 - !private ["Ps9AnyObject", "setSelected"]
+- !private ["Ps9AnyObject", "text"]
+- !private ["Ps9AnyObject", "vendoraddress"]
+- !private ["Ps9AnyObject", "vendorname"]
 - !private ["Ps9AnyObject", "view_Background"]
 - ["Ps9AnyObject", ""]
+- !private ["P12ObjectMapper12BaseMappable", "price"]
+- !private ["P12ObjectMapper12BaseMappable", "productname"]
+- !private ["P12ObjectMapper12BaseMappable", "vendoraddress"]
+- !private ["P12ObjectMapper12BaseMappable", "vendorname"]
 - !private ["PSo15CALayerDelegate", "addBorderToButton"]
 - !private ["PSo15CALayerDelegate", "awakeFromNib"]
 - !private ["PSo15CALayerDelegate", "btn_Call"]
 - !private ["PSo15CALayerDelegate", "btn_Remove"]
 - !private ["PSo15CALayerDelegate", "createCardView"]
 - !private ["PSo15CALayerDelegate", "init"]
+- !private ["PSo15CALayerDelegate", "lbl_Address"]
+- !private ["PSo15CALayerDelegate", "lbl_Price"]
+- !private ["PSo15CALayerDelegate", "lbl_ProductName"]
+- !private ["PSo15CALayerDelegate", "lbl_VendorName"]
 - !private ["PSo15CALayerDelegate", "setSelected"]
+- !private ["PSo15CALayerDelegate", "text"]
 - !private ["PSo15CALayerDelegate", "view_Background"]
 - ["PSo15CALayerDelegate", ""]
 - !private ["Ps7CVarArg", "addBorderToButton"]
+- !private ["Ps7CVarArg", "appending"]
 - !private ["Ps7CVarArg", "awakeFromNib"]
 - !private ["Ps7CVarArg", "btn_Call"]
 - !private ["Ps7CVarArg", "btn_Remove"]
 - !private ["Ps7CVarArg", "createCardView"]
 - !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "lbl_Address"]
+- !private ["Ps7CVarArg", "lbl_Price"]
+- !private ["Ps7CVarArg", "lbl_ProductName"]
+- !private ["Ps7CVarArg", "lbl_VendorName"]
 - !private ["Ps7CVarArg", "setSelected"]
+- !private ["Ps7CVarArg", "text"]
 - !private ["Ps7CVarArg", "view_Background"]
 - ["Ps7CVarArg", ""]
 - ["C15DemoApplication21CartListTableViewCell", "Bool"]
+- ["C15DemoApplication21CartListTableViewCell", "Products"]
 - ["C15DemoApplication21CartListTableViewCell", "UIButton"]
 - ["C15DemoApplication21CartListTableViewCell", "UILabel"]
 - ["C15DemoApplication21CartListTableViewCell", "UIView"]
@@ -67,56 +96,112 @@ depends-member:
 - ["C15DemoApplication21CartListTableViewCell", "lbl_VendorName"]
 - ["C15DemoApplication21CartListTableViewCell", "setSelected"]
 - ["C15DemoApplication21CartListTableViewCell", "view_Background"]
+- !private ["Ps10Comparable", "appending"]
+- !private ["Ps10Comparable", "init"]
 - !private ["Ps28CustomDebugStringConvertible", "addBorderToButton"]
+- !private ["Ps28CustomDebugStringConvertible", "appending"]
 - !private ["Ps28CustomDebugStringConvertible", "awakeFromNib"]
 - !private ["Ps28CustomDebugStringConvertible", "btn_Call"]
 - !private ["Ps28CustomDebugStringConvertible", "btn_Remove"]
 - !private ["Ps28CustomDebugStringConvertible", "createCardView"]
 - !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "lbl_Address"]
+- !private ["Ps28CustomDebugStringConvertible", "lbl_Price"]
+- !private ["Ps28CustomDebugStringConvertible", "lbl_ProductName"]
+- !private ["Ps28CustomDebugStringConvertible", "lbl_VendorName"]
 - !private ["Ps28CustomDebugStringConvertible", "setSelected"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
 - !private ["Ps28CustomDebugStringConvertible", "view_Background"]
 - ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "appending"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "appending"]
+- !private ["Ps17CustomReflectable", "init"]
 - !private ["Ps23CustomStringConvertible", "addBorderToButton"]
+- !private ["Ps23CustomStringConvertible", "appending"]
 - !private ["Ps23CustomStringConvertible", "awakeFromNib"]
 - !private ["Ps23CustomStringConvertible", "btn_Call"]
 - !private ["Ps23CustomStringConvertible", "btn_Remove"]
 - !private ["Ps23CustomStringConvertible", "createCardView"]
 - !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "lbl_Address"]
+- !private ["Ps23CustomStringConvertible", "lbl_Price"]
+- !private ["Ps23CustomStringConvertible", "lbl_ProductName"]
+- !private ["Ps23CustomStringConvertible", "lbl_VendorName"]
 - !private ["Ps23CustomStringConvertible", "setSelected"]
+- !private ["Ps23CustomStringConvertible", "text"]
 - !private ["Ps23CustomStringConvertible", "view_Background"]
 - ["Ps23CustomStringConvertible", ""]
 - !private ["Ps9Equatable", "addBorderToButton"]
+- !private ["Ps9Equatable", "appending"]
 - !private ["Ps9Equatable", "awakeFromNib"]
 - !private ["Ps9Equatable", "btn_Call"]
 - !private ["Ps9Equatable", "btn_Remove"]
 - !private ["Ps9Equatable", "createCardView"]
 - !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "lbl_Address"]
+- !private ["Ps9Equatable", "lbl_Price"]
+- !private ["Ps9Equatable", "lbl_ProductName"]
+- !private ["Ps9Equatable", "lbl_VendorName"]
 - !private ["Ps9Equatable", "setSelected"]
+- !private ["Ps9Equatable", "text"]
 - !private ["Ps9Equatable", "view_Background"]
 - ["Ps9Equatable", ""]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "appending"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "appending"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "appending"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
 - !private ["Ps8Hashable", "addBorderToButton"]
+- !private ["Ps8Hashable", "appending"]
 - !private ["Ps8Hashable", "awakeFromNib"]
 - !private ["Ps8Hashable", "btn_Call"]
 - !private ["Ps8Hashable", "btn_Remove"]
 - !private ["Ps8Hashable", "createCardView"]
 - !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "lbl_Address"]
+- !private ["Ps8Hashable", "lbl_Price"]
+- !private ["Ps8Hashable", "lbl_ProductName"]
+- !private ["Ps8Hashable", "lbl_VendorName"]
 - !private ["Ps8Hashable", "setSelected"]
+- !private ["Ps8Hashable", "text"]
 - !private ["Ps8Hashable", "view_Background"]
 - ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "appending"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["P12ObjectMapper8Mappable", "price"]
+- !private ["P12ObjectMapper8Mappable", "productname"]
+- !private ["P12ObjectMapper8Mappable", "vendoraddress"]
+- !private ["P12ObjectMapper8Mappable", "vendorname"]
+- !private ["Ps10MirrorPath", "appending"]
+- !private ["Ps10MirrorPath", "init"]
 - !private ["PSo8NSCoding", "addBorderToButton"]
+- !private ["PSo8NSCoding", "appending"]
 - !private ["PSo8NSCoding", "awakeFromNib"]
 - !private ["PSo8NSCoding", "btn_Call"]
 - !private ["PSo8NSCoding", "btn_Remove"]
 - !private ["PSo8NSCoding", "createCardView"]
 - !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "lbl_Address"]
+- !private ["PSo8NSCoding", "lbl_Price"]
+- !private ["PSo8NSCoding", "lbl_ProductName"]
+- !private ["PSo8NSCoding", "lbl_VendorName"]
 - !private ["PSo8NSCoding", "setSelected"]
+- !private ["PSo8NSCoding", "text"]
 - !private ["PSo8NSCoding", "view_Background"]
 - ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "appending"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "appending"]
+- !private ["PSo16NSMutableCopying", "init"]
 - ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "Products"]
 - ["CSo8NSObject", "UIButton"]
 - ["CSo8NSObject", "UILabel"]
 - ["CSo8NSObject", "UIView"]
 - !private ["CSo8NSObject", "addBorderToButton"]
+- !private ["CSo8NSObject", "appending"]
 - ["CSo8NSObject", "awakeFromNib"]
 - ["CSo8NSObject", "btn_Call"]
 - ["CSo8NSObject", "btn_Remove"]
@@ -128,23 +213,49 @@ depends-member:
 - ["CSo8NSObject", "lbl_ProductName"]
 - ["CSo8NSObject", "lbl_VendorName"]
 - ["CSo8NSObject", "setSelected"]
+- !private ["CSo8NSObject", "text"]
 - ["CSo8NSObject", "view_Background"]
 - !private ["PSo16NSObjectProtocol", "addBorderToButton"]
+- !private ["PSo16NSObjectProtocol", "appending"]
 - !private ["PSo16NSObjectProtocol", "awakeFromNib"]
 - !private ["PSo16NSObjectProtocol", "btn_Call"]
 - !private ["PSo16NSObjectProtocol", "btn_Remove"]
 - !private ["PSo16NSObjectProtocol", "createCardView"]
 - !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "lbl_Address"]
+- !private ["PSo16NSObjectProtocol", "lbl_Price"]
+- !private ["PSo16NSObjectProtocol", "lbl_ProductName"]
+- !private ["PSo16NSObjectProtocol", "lbl_VendorName"]
 - !private ["PSo16NSObjectProtocol", "setSelected"]
+- !private ["PSo16NSObjectProtocol", "text"]
 - !private ["PSo16NSObjectProtocol", "view_Background"]
 - ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "appending"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "appending"]
+- !private ["CSo8NSString", "init"]
+- !private ["C15DemoApplication8Products", "price"]
+- !private ["C15DemoApplication8Products", "productname"]
+- !private ["C15DemoApplication8Products", "vendoraddress"]
+- !private ["C15DemoApplication8Products", "vendorname"]
+- !private ["SS", "appending"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "appending"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "appending"]
+- !private ["Ps20TextOutputStreamable", "init"]
 - !private ["PSo29UIAccessibilityIdentification", "addBorderToButton"]
 - !private ["PSo29UIAccessibilityIdentification", "awakeFromNib"]
 - !private ["PSo29UIAccessibilityIdentification", "btn_Call"]
 - !private ["PSo29UIAccessibilityIdentification", "btn_Remove"]
 - !private ["PSo29UIAccessibilityIdentification", "createCardView"]
 - !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "lbl_Address"]
+- !private ["PSo29UIAccessibilityIdentification", "lbl_Price"]
+- !private ["PSo29UIAccessibilityIdentification", "lbl_ProductName"]
+- !private ["PSo29UIAccessibilityIdentification", "lbl_VendorName"]
 - !private ["PSo29UIAccessibilityIdentification", "setSelected"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
 - !private ["PSo29UIAccessibilityIdentification", "view_Background"]
 - ["PSo29UIAccessibilityIdentification", ""]
 - !private ["PSo12UIAppearance", "addBorderToButton"]
@@ -153,7 +264,12 @@ depends-member:
 - !private ["PSo12UIAppearance", "btn_Remove"]
 - !private ["PSo12UIAppearance", "createCardView"]
 - !private ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "lbl_Address"]
+- !private ["PSo12UIAppearance", "lbl_Price"]
+- !private ["PSo12UIAppearance", "lbl_ProductName"]
+- !private ["PSo12UIAppearance", "lbl_VendorName"]
 - !private ["PSo12UIAppearance", "setSelected"]
+- !private ["PSo12UIAppearance", "text"]
 - !private ["PSo12UIAppearance", "view_Background"]
 - ["PSo12UIAppearance", ""]
 - !private ["PSo21UIAppearanceContainer", "addBorderToButton"]
@@ -162,10 +278,16 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "btn_Remove"]
 - !private ["PSo21UIAppearanceContainer", "createCardView"]
 - !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "lbl_Address"]
+- !private ["PSo21UIAppearanceContainer", "lbl_Price"]
+- !private ["PSo21UIAppearanceContainer", "lbl_ProductName"]
+- !private ["PSo21UIAppearanceContainer", "lbl_VendorName"]
 - !private ["PSo21UIAppearanceContainer", "setSelected"]
+- !private ["PSo21UIAppearanceContainer", "text"]
 - !private ["PSo21UIAppearanceContainer", "view_Background"]
 - ["PSo21UIAppearanceContainer", ""]
 - !private ["CSo8UIButton", "addBorderToButton"]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "text"]
 - !private ["CSo9UIControl", "addBorderToButton"]
 - !private ["PSo17UICoordinateSpace", "addBorderToButton"]
 - !private ["PSo17UICoordinateSpace", "awakeFromNib"]
@@ -173,7 +295,12 @@ depends-member:
 - !private ["PSo17UICoordinateSpace", "btn_Remove"]
 - !private ["PSo17UICoordinateSpace", "createCardView"]
 - !private ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "lbl_Address"]
+- !private ["PSo17UICoordinateSpace", "lbl_Price"]
+- !private ["PSo17UICoordinateSpace", "lbl_ProductName"]
+- !private ["PSo17UICoordinateSpace", "lbl_VendorName"]
 - !private ["PSo17UICoordinateSpace", "setSelected"]
+- !private ["PSo17UICoordinateSpace", "text"]
 - !private ["PSo17UICoordinateSpace", "view_Background"]
 - ["PSo17UICoordinateSpace", ""]
 - !private ["PSo13UIDynamicItem", "addBorderToButton"]
@@ -182,7 +309,12 @@ depends-member:
 - !private ["PSo13UIDynamicItem", "btn_Remove"]
 - !private ["PSo13UIDynamicItem", "createCardView"]
 - !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "lbl_Address"]
+- !private ["PSo13UIDynamicItem", "lbl_Price"]
+- !private ["PSo13UIDynamicItem", "lbl_ProductName"]
+- !private ["PSo13UIDynamicItem", "lbl_VendorName"]
 - !private ["PSo13UIDynamicItem", "setSelected"]
+- !private ["PSo13UIDynamicItem", "text"]
 - !private ["PSo13UIDynamicItem", "view_Background"]
 - ["PSo13UIDynamicItem", ""]
 - !private ["PSo18UIFocusEnvironment", "addBorderToButton"]
@@ -191,7 +323,12 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "btn_Remove"]
 - !private ["PSo18UIFocusEnvironment", "createCardView"]
 - !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "lbl_Address"]
+- !private ["PSo18UIFocusEnvironment", "lbl_Price"]
+- !private ["PSo18UIFocusEnvironment", "lbl_ProductName"]
+- !private ["PSo18UIFocusEnvironment", "lbl_VendorName"]
 - !private ["PSo18UIFocusEnvironment", "setSelected"]
+- !private ["PSo18UIFocusEnvironment", "text"]
 - !private ["PSo18UIFocusEnvironment", "view_Background"]
 - ["PSo18UIFocusEnvironment", ""]
 - !private ["PSo11UIFocusItem", "addBorderToButton"]
@@ -200,17 +337,28 @@ depends-member:
 - !private ["PSo11UIFocusItem", "btn_Remove"]
 - !private ["PSo11UIFocusItem", "createCardView"]
 - !private ["PSo11UIFocusItem", "init"]
+- !private ["PSo11UIFocusItem", "lbl_Address"]
+- !private ["PSo11UIFocusItem", "lbl_Price"]
+- !private ["PSo11UIFocusItem", "lbl_ProductName"]
+- !private ["PSo11UIFocusItem", "lbl_VendorName"]
 - !private ["PSo11UIFocusItem", "setSelected"]
+- !private ["PSo11UIFocusItem", "text"]
 - !private ["PSo11UIFocusItem", "view_Background"]
 - ["PSo11UIFocusItem", ""]
 - !private ["PSo27UIGestureRecognizerDelegate", "awakeFromNib"]
 - !private ["PSo27UIGestureRecognizerDelegate", "btn_Call"]
 - !private ["PSo27UIGestureRecognizerDelegate", "btn_Remove"]
 - !private ["PSo27UIGestureRecognizerDelegate", "init"]
+- !private ["PSo27UIGestureRecognizerDelegate", "lbl_Address"]
+- !private ["PSo27UIGestureRecognizerDelegate", "lbl_Price"]
+- !private ["PSo27UIGestureRecognizerDelegate", "lbl_ProductName"]
+- !private ["PSo27UIGestureRecognizerDelegate", "lbl_VendorName"]
 - !private ["PSo27UIGestureRecognizerDelegate", "setSelected"]
 - !private ["PSo27UIGestureRecognizerDelegate", "view_Background"]
 - ["PSo27UIGestureRecognizerDelegate", ""]
+- !private ["CSo7UILabel", "text"]
 - ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "Products"]
 - ["CSo11UIResponder", "UIButton"]
 - ["CSo11UIResponder", "UILabel"]
 - ["CSo11UIResponder", "UIView"]
@@ -226,6 +374,7 @@ depends-member:
 - ["CSo11UIResponder", "lbl_ProductName"]
 - ["CSo11UIResponder", "lbl_VendorName"]
 - ["CSo11UIResponder", "setSelected"]
+- !private ["CSo11UIResponder", "text"]
 - ["CSo11UIResponder", "view_Background"]
 - !private ["PSo30UIResponderStandardEditActions", "addBorderToButton"]
 - !private ["PSo30UIResponderStandardEditActions", "awakeFromNib"]
@@ -233,10 +382,16 @@ depends-member:
 - !private ["PSo30UIResponderStandardEditActions", "btn_Remove"]
 - !private ["PSo30UIResponderStandardEditActions", "createCardView"]
 - !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "lbl_Address"]
+- !private ["PSo30UIResponderStandardEditActions", "lbl_Price"]
+- !private ["PSo30UIResponderStandardEditActions", "lbl_ProductName"]
+- !private ["PSo30UIResponderStandardEditActions", "lbl_VendorName"]
 - !private ["PSo30UIResponderStandardEditActions", "setSelected"]
+- !private ["PSo30UIResponderStandardEditActions", "text"]
 - !private ["PSo30UIResponderStandardEditActions", "view_Background"]
 - ["PSo30UIResponderStandardEditActions", ""]
 - ["CSo15UITableViewCell", "Bool"]
+- ["CSo15UITableViewCell", "Products"]
 - ["CSo15UITableViewCell", "UIButton"]
 - ["CSo15UITableViewCell", "UILabel"]
 - ["CSo15UITableViewCell", "UIView"]
@@ -258,10 +413,16 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "btn_Remove"]
 - !private ["PSo18UITraitEnvironment", "createCardView"]
 - !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "lbl_Address"]
+- !private ["PSo18UITraitEnvironment", "lbl_Price"]
+- !private ["PSo18UITraitEnvironment", "lbl_ProductName"]
+- !private ["PSo18UITraitEnvironment", "lbl_VendorName"]
 - !private ["PSo18UITraitEnvironment", "setSelected"]
+- !private ["PSo18UITraitEnvironment", "text"]
 - !private ["PSo18UITraitEnvironment", "view_Background"]
 - ["PSo18UITraitEnvironment", ""]
 - ["CSo6UIView", "Bool"]
+- ["CSo6UIView", "Products"]
 - ["CSo6UIView", "UIButton"]
 - ["CSo6UIView", "UILabel"]
 - ["CSo6UIView", "UIView"]
@@ -277,54 +438,110 @@ depends-member:
 - ["CSo6UIView", "lbl_ProductName"]
 - ["CSo6UIView", "lbl_VendorName"]
 - ["CSo6UIView", "setSelected"]
+- !private ["CSo6UIView", "text"]
 - ["CSo6UIView", "view_Background"]
+- !private ["P9Alamofire14URLConvertible", "appending"]
+- !private ["P9Alamofire14URLConvertible", "init"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "addBorderToButton"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "awakeFromNib"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "btn_Call"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "btn_Remove"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "createCardView"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "lbl_Address"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "lbl_Price"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "lbl_ProductName"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "lbl_VendorName"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "setSelected"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "text"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "view_Background"]
 - ["Ps37_DefaultCustomPlaygroundQuickLookable", ""]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "appending"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "appending"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "appending"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "appending"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "appending"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "appending"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
 - !private ["Ps9_Hashable", "addBorderToButton"]
+- !private ["Ps9_Hashable", "appending"]
 - !private ["Ps9_Hashable", "awakeFromNib"]
 - !private ["Ps9_Hashable", "btn_Call"]
 - !private ["Ps9_Hashable", "btn_Remove"]
 - !private ["Ps9_Hashable", "createCardView"]
 - !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "lbl_Address"]
+- !private ["Ps9_Hashable", "lbl_Price"]
+- !private ["Ps9_Hashable", "lbl_ProductName"]
+- !private ["Ps9_Hashable", "lbl_VendorName"]
 - !private ["Ps9_Hashable", "setSelected"]
+- !private ["Ps9_Hashable", "text"]
 - !private ["Ps9_Hashable", "view_Background"]
 - ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "appending"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
 depends-nominal:
 - "Ps9AnyObject"
+- !private "P12ObjectMapper12BaseMappable"
 - "PSo15CALayerDelegate"
 - "Ps7CVarArg"
 - "C15DemoApplication21CartListTableViewCell"
+- !private "Ps10Comparable"
 - "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
 - "Ps23CustomStringConvertible"
 - "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
 - "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "P12ObjectMapper8Mappable"
+- !private "Ps10MirrorPath"
 - "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "C15DemoApplication8Products"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
 - "PSo29UIAccessibilityIdentification"
 - "PSo12UIAppearance"
 - "PSo21UIAppearanceContainer"
 - !private "CSo8UIButton"
+- !private "PSo30UIContentSizeCategoryAdjusting"
 - !private "CSo9UIControl"
 - "PSo17UICoordinateSpace"
 - "PSo13UIDynamicItem"
 - "PSo18UIFocusEnvironment"
 - "PSo11UIFocusItem"
 - "PSo27UIGestureRecognizerDelegate"
+- !private "CSo7UILabel"
 - "CSo11UIResponder"
 - "PSo30UIResponderStandardEditActions"
 - "CSo15UITableViewCell"
 - "PSo18UITraitEnvironment"
 - "CSo6UIView"
+- !private "P9Alamofire14URLConvertible"
 - "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
 - "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
 depends-dynamic-lookup:
 depends-external:
 - "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
@@ -355,4 +572,4 @@ depends-external:
 - "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
 - "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/module.modulemap"
 - "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Products/Debug-iphonesimulator/AlamofireObjectMapper/AlamofireObjectMapper.framework/Modules/module.modulemap"
-interface-hash: "4e894c39062de6f55426d76628882d74"
+interface-hash: "5abdbb1d074e3131e0e8be3740392e59"

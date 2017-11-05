@@ -28,11 +28,17 @@ class CartListTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
-    func configureCell()
+    func configureCell(product : Products)
     {
         self.view_Background.createCardView()
         self.btn_Call.addBorderToButton()
         self.btn_Remove.addBorderToButton()
+        
+        lbl_ProductName.text = product.productname
+        lbl_Address.text = product.vendoraddress
+        lbl_Price.text = (lbl_Price.text)?.appending(": \(product.price!) ")
+        lbl_VendorName.text = product.vendorname
+        
     }
     
 }

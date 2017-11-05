@@ -10,15 +10,23 @@ import Foundation
 protocol CartViewModelType {
     
     var viewDelegate : CartViewDelegate? { get set }
-    
+    var cartArray:[Products]?{get set}
+
 }
 
 class CartViewModel: CartViewModelType {
+    var cartArray: [Products]?
     var viewDelegate: CartViewDelegate?
+    
+    init() {
+        
+        cartArray = [Products]()
+    }
 }
 
 
 
-protocol CartViewDelegate {
+protocol CartViewDelegate
+{
     
 }

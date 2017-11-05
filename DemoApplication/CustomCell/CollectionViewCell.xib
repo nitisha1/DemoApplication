@@ -65,12 +65,13 @@
                                 <color key="textColor" white="0.0" alpha="0.28589898765915495" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gCC-Po-IRI">
+                            <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gCC-Po-IRI">
                                 <rect key="frame" x="0.0" y="225" width="279" height="30"/>
                                 <color key="backgroundColor" red="0.8862745098" green="0.8862745098" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="dmH-0H-1LS"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <state key="normal" title="Add to Cart">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -111,6 +112,7 @@
             </constraints>
             <size key="customSize" width="279" height="255"/>
             <connections>
+                <outlet property="btn_AddToCart" destination="gCC-Po-IRI" id="s7U-9O-dJA"/>
                 <outlet property="img_Product" destination="j98-Pz-W7Z" id="Jo5-QU-Hsc"/>
                 <outlet property="lbl_Price" destination="UCs-m2-iRB" id="AZX-dZ-RV5"/>
                 <outlet property="lbl_PriceValue" destination="6gZ-Dr-thB" id="9y2-C1-BFH"/>

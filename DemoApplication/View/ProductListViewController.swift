@@ -34,13 +34,17 @@ class ProductListViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+              // Do any additional setup after loading the view.
+        NotificationCenter.default.addObserver(self, selector: #selector(removeFromCart(notification:)), name: notificationNameRemoveFromCart, object: nil)
+
+        
         let bundle = Bundle(for: type(of: self))
         let nib = UINib(nibName: "CollectionViewCell", bundle: bundle)
         self.collection_Products?.register(nib, forCellWithReuseIdentifier: resusableIdentifier)
  
         self.collection_Products.delegate = self
         self.collection_Products.dataSource = self
-        // Do any additional setup after loading the view.
+  
        collection_Products.backgroundColor = UIColor.clear
        
         guard let flowLayout = collection_Products?.collectionViewLayout as? UICollectionViewFlowLayout else { return }
@@ -48,6 +52,8 @@ class ProductListViewController: UIViewController {
         flowLayout.minimumLineSpacing = 10
         flowLayout.sectionInset = UIEdgeInsets(top: margin, left: margin, bottom: margin, right: margin) // not required
         setCollectionViewCellsDisplay(for: (collection_Products?.bounds.size)!)
+        
+        viewModel.getProductDetails()
         
     }
     
@@ -68,6 +74,38 @@ class ProductListViewController: UIViewController {
     }
     
   
+    func actionAddToCart(_ button : UIButton)
+    {
+        print(button.layer.name ?? "")
+        let index = Int(button.layer.name!)
+        if let addItem = self.viewModel.productArray?[index!]
+        {
+           self.viewModel.productArray?.remove(at: index!)
+           let path  = IndexPath(row: index!, section: 0)
+            self.collection_Products.performBatchUpdates({
+                self.collection_Products.deleteItems(at: [path])
+            }) { (finished) in
+                self.collection_Products.reloadItems(at: self.collection_Products.indexPathsForVisibleItems)
+            }
+        NotificationCenter.default.post(name: notificationNameAddToCart, object:nil , userInfo: ["data": addItem])
+        }
+    }
+    
+    @objc func removeFromCart(notification: NSNotification)
+    {
+        if  let itemToAdd = notification.userInfo!["data"] as? Products
+        {
+            self.viewModel.productArray?.append(itemToAdd)
+            DispatchQueue.main.async
+                {
+                    if self.collection_Products != nil
+                    {
+                        self.collection_Products.reloadData()
+                    }
+             }
+        }
+    }
+    
 }
 
 extension ProductListViewController : UICollectionViewDelegate , UICollectionViewDataSource
@@ -78,16 +116,22 @@ extension ProductListViewController : UICollectionViewDelegate , UICollectionVie
         return 1
     }
     
-    
       func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of items
-        return 5
+        return (self.viewModel.productArray?.count)!
     }
     
       func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: resusableIdentifier, for: indexPath) as! CollectionViewCell
         // Configure the cell
-        cell.setUpCell()
+        if let product = self.viewModel.productArray?[indexPath.row]
+        {
+        cell.setUpCell(product : product)
+        }
+        
+        let btnAdd = cell.viewWithTag(11) as! UIButton
+        btnAdd.addTarget(self, action: #selector(self.actionAddToCart(_:)), for: UIControlEvents.touchUpInside)
+        btnAdd.layer.name = indexPath.row.description
          return cell
     }
     
@@ -96,4 +140,11 @@ extension ProductListViewController : UICollectionViewDelegate , UICollectionVie
 }
 extension ProductListViewController : ProductViewDelegate
 {
+    func resfreshList() {
+        
+        DispatchQueue.main.async
+            {
+            self.collection_Products.reloadData()
+        }
+    }
 }

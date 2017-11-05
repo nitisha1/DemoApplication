@@ -1,5 +1,7 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
+- "notificationNameAddToCart"
+- "notificationNameRemoveFromCart"
 - "HomeBarViewController"
 provides-nominal:
 - "C15DemoApplication21HomeBarViewController"
@@ -23,9 +25,10 @@ depends-top-level:
 - "HomeViewDelegate"
 - "HomeViewModelType"
 - "NSCoder"
+- "Notification"
 - !private "ProductListViewController"
 - !private "ProductViewModel"
-- !private "StringLiteralType"
+- "StringLiteralType"
 - !private "UIColor"
 - !private "UIImage"
 - "UITabBar"
@@ -33,6 +36,8 @@ depends-top-level:
 - "UITabBarItem"
 - "UIViewController"
 - !private "fatalError"
+- "notificationNameAddToCart"
+- "notificationNameRemoveFromCart"
 depends-member:
 - !private ["Ps9AnyObject", "CartListingViewController"]
 - !private ["Ps9AnyObject", "CartViewModel"]
@@ -45,7 +50,7 @@ depends-member:
 - !private ["Ps9AnyObject", "darkGray"]
 - !private ["Ps9AnyObject", "didReceiveMemoryWarning"]
 - !private ["Ps9AnyObject", "fatalError"]
-- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "init"]
 - !private ["Ps9AnyObject", "navigationItem"]
 - !private ["Ps9AnyObject", "setViewControllers"]
 - !private ["Ps9AnyObject", "tabBar"]
@@ -71,7 +76,7 @@ depends-member:
 - !private ["Ps7CVarArg", "darkGray"]
 - !private ["Ps7CVarArg", "didReceiveMemoryWarning"]
 - !private ["Ps7CVarArg", "fatalError"]
-- !private ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "init"]
 - !private ["Ps7CVarArg", "navigationItem"]
 - !private ["Ps7CVarArg", "setViewControllers"]
 - !private ["Ps7CVarArg", "tabBar"]
@@ -92,9 +97,10 @@ depends-member:
 - !private ["C15DemoApplication13CartViewModel", "deinit"]
 - !private ["C15DemoApplication13CartViewModel", "init"]
 - !private ["P15DemoApplication17CartViewModelType", "init"]
-- !private ["Ps10Comparable", "init"]
+- ["Ps10Comparable", "init"]
 - !private ["Ps28CustomDebugStringConvertible", "CartListingViewController"]
 - !private ["Ps28CustomDebugStringConvertible", "CartViewModel"]
+- ["Ps28CustomDebugStringConvertible", "Name"]
 - !private ["Ps28CustomDebugStringConvertible", "ProductListViewController"]
 - !private ["Ps28CustomDebugStringConvertible", "ProductViewModel"]
 - !private ["Ps28CustomDebugStringConvertible", "UIColor"]
@@ -104,7 +110,7 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "darkGray"]
 - !private ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
 - !private ["Ps28CustomDebugStringConvertible", "fatalError"]
-- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "init"]
 - !private ["Ps28CustomDebugStringConvertible", "navigationItem"]
 - !private ["Ps28CustomDebugStringConvertible", "setViewControllers"]
 - !private ["Ps28CustomDebugStringConvertible", "tabBar"]
@@ -118,11 +124,13 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "viewModel"]
 - ["Ps28CustomDebugStringConvertible", ""]
 - !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
-- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps17CustomReflectable", "Name"]
 - !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
-- !private ["Ps17CustomReflectable", "init"]
+- ["Ps17CustomReflectable", "init"]
 - !private ["Ps23CustomStringConvertible", "CartListingViewController"]
 - !private ["Ps23CustomStringConvertible", "CartViewModel"]
+- ["Ps23CustomStringConvertible", "Name"]
 - !private ["Ps23CustomStringConvertible", "ProductListViewController"]
 - !private ["Ps23CustomStringConvertible", "ProductViewModel"]
 - !private ["Ps23CustomStringConvertible", "UIColor"]
@@ -133,7 +141,7 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "darkGray"]
 - !private ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
 - !private ["Ps23CustomStringConvertible", "fatalError"]
-- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "init"]
 - !private ["Ps23CustomStringConvertible", "navigationItem"]
 - !private ["Ps23CustomStringConvertible", "setViewControllers"]
 - !private ["Ps23CustomStringConvertible", "tabBar"]
@@ -148,6 +156,7 @@ depends-member:
 - ["Ps23CustomStringConvertible", ""]
 - !private ["Ps9Equatable", "CartListingViewController"]
 - !private ["Ps9Equatable", "CartViewModel"]
+- ["Ps9Equatable", "Name"]
 - !private ["Ps9Equatable", "ProductListViewController"]
 - !private ["Ps9Equatable", "ProductViewModel"]
 - !private ["Ps9Equatable", "UIColor"]
@@ -158,7 +167,7 @@ depends-member:
 - !private ["Ps9Equatable", "darkGray"]
 - !private ["Ps9Equatable", "didReceiveMemoryWarning"]
 - !private ["Ps9Equatable", "fatalError"]
-- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "init"]
 - !private ["Ps9Equatable", "navigationItem"]
 - !private ["Ps9Equatable", "setViewControllers"]
 - !private ["Ps9Equatable", "tabBar"]
@@ -172,11 +181,12 @@ depends-member:
 - !private ["Ps9Equatable", "viewModel"]
 - ["Ps9Equatable", ""]
 - !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
-- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
-- !private ["Ps26ExpressibleByStringLiteral", "init"]
-- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
 - !private ["Ps8Hashable", "CartListingViewController"]
 - !private ["Ps8Hashable", "CartViewModel"]
+- ["Ps8Hashable", "Name"]
 - !private ["Ps8Hashable", "ProductListViewController"]
 - !private ["Ps8Hashable", "ProductViewModel"]
 - !private ["Ps8Hashable", "UIColor"]
@@ -187,7 +197,7 @@ depends-member:
 - !private ["Ps8Hashable", "darkGray"]
 - !private ["Ps8Hashable", "didReceiveMemoryWarning"]
 - !private ["Ps8Hashable", "fatalError"]
-- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "init"]
 - !private ["Ps8Hashable", "navigationItem"]
 - !private ["Ps8Hashable", "setViewControllers"]
 - !private ["Ps8Hashable", "tabBar"]
@@ -241,8 +251,8 @@ depends-member:
 - ["P15DemoApplication16HomeViewDelegate", ""]
 - !private ["P15DemoApplication17HomeViewModelType", "viewDelegate"]
 - !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
-- !private ["Ps25LosslessStringConvertible", "init"]
-- !private ["Ps10MirrorPath", "init"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["Ps10MirrorPath", "init"]
 - !private ["PSo8NSCoding", "CartListingViewController"]
 - !private ["PSo8NSCoding", "CartViewModel"]
 - !private ["PSo8NSCoding", "ProductListViewController"]
@@ -254,7 +264,7 @@ depends-member:
 - !private ["PSo8NSCoding", "darkGray"]
 - !private ["PSo8NSCoding", "didReceiveMemoryWarning"]
 - !private ["PSo8NSCoding", "fatalError"]
-- !private ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "init"]
 - !private ["PSo8NSCoding", "navigationItem"]
 - !private ["PSo8NSCoding", "setViewControllers"]
 - !private ["PSo8NSCoding", "tabBar"]
@@ -268,7 +278,7 @@ depends-member:
 - !private ["PSo8NSCoding", "viewModel"]
 - ["PSo8NSCoding", ""]
 - !private ["PSo9NSCopying", "darkGray"]
-- !private ["PSo9NSCopying", "init"]
+- ["PSo9NSCopying", "init"]
 - !private ["PSo26NSExtensionRequestHandling", "CartListingViewController"]
 - !private ["PSo26NSExtensionRequestHandling", "CartViewModel"]
 - !private ["PSo26NSExtensionRequestHandling", "ProductListViewController"]
@@ -289,7 +299,7 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
 - !private ["PSo26NSExtensionRequestHandling", "viewModel"]
 - ["PSo26NSExtensionRequestHandling", ""]
-- !private ["PSo16NSMutableCopying", "init"]
+- ["PSo16NSMutableCopying", "init"]
 - ["CSo8NSObject", "Bool"]
 - !private ["CSo8NSObject", "CartListingViewController"]
 - !private ["CSo8NSObject", "CartViewModel"]
@@ -330,7 +340,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "darkGray"]
 - !private ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
 - !private ["PSo16NSObjectProtocol", "fatalError"]
-- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "init"]
 - !private ["PSo16NSObjectProtocol", "navigationItem"]
 - !private ["PSo16NSObjectProtocol", "setViewControllers"]
 - !private ["PSo16NSObjectProtocol", "tabBar"]
@@ -344,8 +354,10 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "viewModel"]
 - ["PSo16NSObjectProtocol", ""]
 - !private ["PSo14NSSecureCoding", "darkGray"]
-- !private ["PSo14NSSecureCoding", "init"]
-- !private ["CSo8NSString", "init"]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- ["VCSo14NSNotification4Name", "init"]
+- ["V10Foundation12Notification", "Name"]
 - !private ["C15DemoApplication25ProductListViewController", "deinit"]
 - !private ["C15DemoApplication25ProductListViewController", "init"]
 - !private ["C15DemoApplication25ProductListViewController", "tabBarItem"]
@@ -354,10 +366,12 @@ depends-member:
 - !private ["C15DemoApplication16ProductViewModel", "deinit"]
 - !private ["C15DemoApplication16ProductViewModel", "init"]
 - !private ["P15DemoApplication20ProductViewModelType", "init"]
+- ["Ps16RawRepresentable", "init"]
+- ["P10Foundation20ReferenceConvertible", "Name"]
 - !private ["Vs12StaticString", "init"]
-- !private ["SS", "init"]
-- !private ["Ps16TextOutputStream", "init"]
-- !private ["Ps20TextOutputStreamable", "init"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
 - !private ["PSo29UIAccessibilityIdentification", "init"]
 - !private ["PSo29UIAccessibilityIdentification", "tag"]
 - !private ["PSo29UIAccessibilityIdentification", "tintColor"]
@@ -605,19 +619,20 @@ depends-member:
 - !private ["CSo16UIViewController", "viewControllers"]
 - ["CSo16UIViewController", "viewDidLoad"]
 - ["CSo16UIViewController", "viewModel"]
-- !private ["P9Alamofire14URLConvertible", "init"]
+- ["P9Alamofire14URLConvertible", "init"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "tintColor"]
 - !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
-- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
-- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
-- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
-- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
 - !private ["Ps26_ExpressibleByColorLiteral", "darkGray"]
 - !private ["Ps26_ExpressibleByImageLiteral", "init"]
-- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
-- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps33_ExpressibleByStringInterpolation", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
 - !private ["Ps9_Hashable", "CartListingViewController"]
 - !private ["Ps9_Hashable", "CartViewModel"]
+- ["Ps9_Hashable", "Name"]
 - !private ["Ps9_Hashable", "ProductListViewController"]
 - !private ["Ps9_Hashable", "ProductViewModel"]
 - !private ["Ps9_Hashable", "UIColor"]
@@ -628,7 +643,7 @@ depends-member:
 - !private ["Ps9_Hashable", "darkGray"]
 - !private ["Ps9_Hashable", "didReceiveMemoryWarning"]
 - !private ["Ps9_Hashable", "fatalError"]
-- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "init"]
 - !private ["Ps9_Hashable", "navigationItem"]
 - !private ["Ps9_Hashable", "setViewControllers"]
 - !private ["Ps9_Hashable", "tabBar"]
@@ -641,8 +656,10 @@ depends-member:
 - !private ["Ps9_Hashable", "viewDidLoad"]
 - !private ["Ps9_Hashable", "viewModel"]
 - ["Ps9_Hashable", ""]
+- ["Ps21_ObjectiveCBridgeable", "Name"]
 - !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
-- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- ["Ps20_SwiftNewtypeWrapper", "init"]
 depends-nominal:
 - "Ps9AnyObject"
 - !private "Sb"
@@ -652,38 +669,42 @@ depends-nominal:
 - !private "P15DemoApplication16CartViewDelegate"
 - !private "C15DemoApplication13CartViewModel"
 - !private "P15DemoApplication17CartViewModelType"
-- !private "Ps10Comparable"
+- "Ps10Comparable"
 - "Ps28CustomDebugStringConvertible"
-- !private "Ps29CustomPlaygroundQuickLookable"
-- !private "Ps17CustomReflectable"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
 - "Ps23CustomStringConvertible"
 - "Ps9Equatable"
 - !private "Ps27ExpressibleByBooleanLiteral"
-- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
-- !private "Ps26ExpressibleByStringLiteral"
-- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
 - "Ps8Hashable"
 - "C15DemoApplication21HomeBarViewController"
 - "P15DemoApplication16HomeViewDelegate"
 - !private "P15DemoApplication17HomeViewModelType"
-- !private "Ps25LosslessStringConvertible"
-- !private "Ps10MirrorPath"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
 - "PSo8NSCoding"
-- !private "PSo9NSCopying"
+- "PSo9NSCopying"
 - "PSo26NSExtensionRequestHandling"
-- !private "PSo16NSMutableCopying"
+- "PSo16NSMutableCopying"
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
-- !private "PSo14NSSecureCoding"
-- !private "CSo8NSString"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "VCSo14NSNotification4Name"
+- "V10Foundation12Notification"
 - !private "C15DemoApplication25ProductListViewController"
 - !private "P15DemoApplication19ProductViewDelegate"
 - !private "C15DemoApplication16ProductViewModel"
 - !private "P15DemoApplication20ProductViewModelType"
+- "Ps16RawRepresentable"
+- "P10Foundation20ReferenceConvertible"
 - !private "Vs12StaticString"
-- !private "SS"
-- !private "Ps16TextOutputStream"
-- !private "Ps20TextOutputStreamable"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
 - !private "PSo29UIAccessibilityIdentification"
 - !private "PSo12UIAppearance"
 - "PSo21UIAppearanceContainer"
@@ -711,19 +732,20 @@ depends-nominal:
 - "PSo18UITraitEnvironment"
 - !private "CSo6UIView"
 - "CSo16UIViewController"
-- !private "P9Alamofire14URLConvertible"
+- "P9Alamofire14URLConvertible"
 - !private "Ps37_DefaultCustomPlaygroundQuickLookable"
 - !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
-- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
-- !private "Ps34_ExpressibleByBuiltinStringLiteral"
-- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
-- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
 - !private "Ps26_ExpressibleByColorLiteral"
 - !private "Ps26_ExpressibleByImageLiteral"
-- !private "Ps33_ExpressibleByStringInterpolation"
-- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps33_ExpressibleByStringInterpolation"
+- "Ps35_HasCustomAnyHashableRepresentation"
 - "Ps9_Hashable"
-- !private "Ps21_ObjectiveCBridgeable"
+- "Ps21_ObjectiveCBridgeable"
+- "Ps20_SwiftNewtypeWrapper"
 depends-dynamic-lookup:
 depends-external:
 - "/Users/nitisha/Documents/Software/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
@@ -754,4 +776,4 @@ depends-external:
 - "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
 - "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/module.modulemap"
 - "/Users/nitisha/Documents/My_Task/DemoApplication/Build/Products/Debug-iphonesimulator/AlamofireObjectMapper/AlamofireObjectMapper.framework/Modules/module.modulemap"
-interface-hash: "b77715d395c2824a54fc4df9c35fee34"
+interface-hash: "d44028e2f45c052f47762d84cf3f8320"

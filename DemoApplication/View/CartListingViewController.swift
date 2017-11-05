@@ -21,6 +21,8 @@ class CartListingViewController: UIViewController {
         self.viewModel = model
         super.init(nibName: nil, bundle: nil)
         viewModel.viewDelegate = self
+        NotificationCenter.default.addObserver(self, selector: #selector(addToCart(notification:)), name: notificationNameAddToCart, object: nil)
+
     }
     
     required init?(coder aDecoder: NSCoder)
@@ -48,14 +50,44 @@ class CartListingViewController: UIViewController {
         self.tbl_CartList.delegate = self
         self.tbl_CartList.dataSource = self
         self.navigationItem.title = "Cart"
+        self.tbl_CartList.reloadData()
      }
+    
+    
+    @objc func addToCart(notification: NSNotification)
+    {
+        if  let itemToAdd = notification.userInfo!["data"] as? Products
+        {
+            self.viewModel.cartArray?.append(itemToAdd)
+            DispatchQueue.main.async
+            {
+                if self.tbl_CartList != nil
+                {
+                self.tbl_CartList.reloadData()
+                }
+            }
+        }
+    }
+    
+      func removeFromCart(_ button: UIButton)
+    {
+        let index = Int(button.layer.name!)
+        if let addItem = self.viewModel.cartArray?[index!]
+        {
+            self.viewModel.cartArray?.remove(at: index!)
+            let path  = IndexPath(row: index!, section: 0)
+            self.tbl_CartList.deleteRows(at: [path], with: .automatic)
+            NotificationCenter.default.post(name: notificationNameRemoveFromCart, object:nil , userInfo: ["data": addItem])
+        }
+    }
+    
 }
 
 extension CartListingViewController : UITableViewDelegate , UITableViewDataSource
 {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
-        return 10
+        return (self.viewModel.cartArray?.count)!
     }
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
@@ -67,7 +99,13 @@ extension CartListingViewController : UITableViewDelegate , UITableViewDataSourc
     {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: cart_reusable_identifier, for: indexPath) as! CartListTableViewCell
-       cell.configureCell()
+        if let product = self.viewModel.cartArray?[indexPath.row]
+        {
+            cell.configureCell(product : product)
+        }
+        let btnRemove = cell.viewWithTag(33) as! UIButton
+        btnRemove.addTarget(self, action: #selector(self.removeFromCart(_:)), for: UIControlEvents.touchUpInside)
+        btnRemove.layer.name = indexPath.row.description
         return cell
     }
     

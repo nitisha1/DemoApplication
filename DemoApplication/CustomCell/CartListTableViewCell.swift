@@ -44,7 +44,14 @@ class CartListTableViewCell: UITableViewCell {
         lbl_Price.text = (lbl_Price.text)?.appending(": \(product.price!) ")
         lbl_VendorName.text = product.vendorname
         
-        self.lazyImage.showWithSpinner(imageView:self.img_Product, url:product.productImg)        
+        self.lazyImage.showWithSpinner(imageView:self.img_Product, url:product.productImg) {
+            (error:LazyImageError?) in
+            if error != nil
+            {
+                self.img_Product.image = UIImage(named: "icons8_image")
+            }
+        }
     }
+
     
 }

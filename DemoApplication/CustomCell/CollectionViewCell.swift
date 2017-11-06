@@ -36,8 +36,13 @@ class CollectionViewCell: UICollectionViewCell {
         lbl_VendorAdd.text = product.vendoraddress
         lbl_PriceValue.text = product.price
         lbl_vendorName.text = product.vendorname
-        self.lazyImage.showWithSpinner(imageView:self.img_Product, url:product.productImg)
-}
+        self.lazyImage.showWithSpinner(imageView:self.img_Product, url:product.productImg) {
+            (error:LazyImageError?) in
+            if error != nil
+            {
+                self.img_Product.image = UIImage(named: "icons8_image")
+            }
+        }}
     
     
     

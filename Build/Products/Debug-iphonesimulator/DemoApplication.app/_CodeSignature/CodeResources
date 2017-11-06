@@ -30,15 +30,15 @@
 		</data>
 		<key>CartListTableViewCell.nib</key>
 		<data>
-		mPYRBIaHJ5dM9HhZBI3OUr7Vd8c=
+		1piWg4e0HloKCwBYeCsmmRT0qHQ=
 		</data>
 		<key>CartListingViewController.nib</key>
 		<data>
-		woHDWhEF66nY2q5nEzGWPZeUnFw=
+		u0VPJEWmUCkwJ4H40IofzU4Tb7Y=
 		</data>
 		<key>CollectionViewCell.nib</key>
 		<data>
-		IT8NLfrPCmEZYN6USJjhUPiMrcI=
+		vt2kERO8tcN1v7oMUUdu3KGlrXY=
 		</data>
 		<key>Frameworks/Alamofire.framework/Alamofire</key>
 		<data>
@@ -142,7 +142,7 @@
 		</data>
 		<key>ProductListViewController.nib</key>
 		<data>
-		NHQD3lz1y3kTTCUjyo7pJdlIHxI=
+		9qceA9c74G5vEelCE/frula3Ivs=
 		</data>
 		<key>ic_product.png</key>
 		<data>
@@ -257,33 +257,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mPYRBIaHJ5dM9HhZBI3OUr7Vd8c=
+			1piWg4e0HloKCwBYeCsmmRT0qHQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			TufSwPR3RFxZoWpiwEdrRQ8R1ElHJVeyPJDPvUycYic=
+			FHzK2jWOCFCEsf6bsWcCO2LNzuFIzdMkO/3CrsU//dU=
 			</data>
 		</dict>
 		<key>CartListingViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			woHDWhEF66nY2q5nEzGWPZeUnFw=
+			u0VPJEWmUCkwJ4H40IofzU4Tb7Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			pnMs96RjBYSPByWYxz2ov1FluNgKaXAQ28CxsNd6d48=
+			4V6QrQSBLEfjF9u17hMLw84pAVfwtnXi1mUBXGRID+k=
 			</data>
 		</dict>
 		<key>CollectionViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IT8NLfrPCmEZYN6USJjhUPiMrcI=
+			vt2kERO8tcN1v7oMUUdu3KGlrXY=
 			</data>
 			<key>hash2</key>
 			<data>
-			MlhKMQ1fPPZ6U8RX351nZFNFcqu5mLietr6J7hkrtbA=
+			n6CkRLLBpBlrwVy6kI3fo4zIr7W5BhLVagwKNsxVXN0=
 			</data>
 		</dict>
 		<key>Frameworks/Alamofire.framework/Alamofire</key>
@@ -543,11 +543,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NHQD3lz1y3kTTCUjyo7pJdlIHxI=
+			9qceA9c74G5vEelCE/frula3Ivs=
 			</data>
 			<key>hash2</key>
 			<data>
-			xjZeoRVM42Mpp+D9eoB14NZxXYAa+m6sG1mfTD7hGc0=
+			1msK60tiP66kYjnLztUNM8WnnnyWHIBrAU0viDeVCJM=
 			</data>
 		</dict>
 		<key>ic_product.png</key>

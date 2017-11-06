@@ -44,6 +44,7 @@
 		6BDA10E91FAED9D100684496 /* ic_product.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BDA10E61FAED9D100684496 /* ic_product.png */; };
 		6BDA10EA1FAED9D100684496 /* ic_product@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BDA10E71FAED9D100684496 /* ic_product@2x.png */; };
 		6BDA10EB1FAED9D100684496 /* ic_product@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BDA10E81FAED9D100684496 /* ic_product@3x.png */; };
+		6BDA10EF1FB0014E00684496 /* LazyImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDA10EE1FB0014E00684496 /* LazyImage.swift */; };
 		76EB750DFAE2A61A34042DC8 /* Pods_DemoApplication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EADBA0ADC80C60322DD8366 /* Pods_DemoApplication.framework */; };
 		C651B0E06D3094C198E293A8 /* Pods_DemoApplicationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45F5A4B6029FCB41DDC0633C /* Pods_DemoApplicationTests.framework */; };
 		E907333DE557A96E654B7002 /* Pods_DemoApplicationUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E95949C410DE9773E46E284D /* Pods_DemoApplicationUITests.framework */; };
@@ -114,6 +115,7 @@
 		6BDA10E61FAED9D100684496 /* ic_product.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_product.png; sourceTree = "<group>"; };
 		6BDA10E71FAED9D100684496 /* ic_product@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_product@2x.png"; sourceTree = "<group>"; };
 		6BDA10E81FAED9D100684496 /* ic_product@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_product@3x.png"; sourceTree = "<group>"; };
+		6BDA10EE1FB0014E00684496 /* LazyImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LazyImage.swift; sourceTree = "<group>"; };
 		9011973F4BDF86C3AD72A7B1 /* Pods-DemoApplicationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoApplicationTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoApplicationTests/Pods-DemoApplicationTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DE8AC599337A6C8F098D4D9A /* Pods-DemoApplication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoApplication.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoApplication/Pods-DemoApplication.debug.xcconfig"; sourceTree = "<group>"; };
 		E0B85362864B5A0C216027F4 /* Pods-DemoApplicationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoApplicationUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoApplicationUITests/Pods-DemoApplicationUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -252,6 +254,7 @@
 		6BDA10861FADFA2200684496 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				6BDA10ED1FB0014E00684496 /* LazyImageLibrary */,
 				6BDA10A61FAE055800684496 /* Constants.swift */,
 				6BDA10D51FAED15100684496 /* GenericExtensions.swift */,
 			);
@@ -337,6 +340,14 @@
 				6BDA10E81FAED9D100684496 /* ic_product@3x.png */,
 			);
 			path = Product;
+			sourceTree = "<group>";
+		};
+		6BDA10ED1FB0014E00684496 /* LazyImageLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				6BDA10EE1FB0014E00684496 /* LazyImage.swift */,
+			);
+			path = LazyImageLibrary;
 			sourceTree = "<group>";
 		};
 		F2687FA977B06AFEA145415F /* Frameworks */ = {
@@ -674,6 +685,7 @@
 				6BDA10C21FAE1EEA00684496 /* ProductListViewController.swift in Sources */,
 				6BDA10CA1FAE481400684496 /* Items.swift in Sources */,
 				6BDA10AF1FAE075C00684496 /* HomeAssembler.swift in Sources */,
+				6BDA10EF1FB0014E00684496 /* LazyImage.swift in Sources */,
 				6BDA10A21FAE01BB00684496 /* CollectionViewCell.swift in Sources */,
 				6BDA10BD1FAE143500684496 /* HomeBarViewController.swift in Sources */,
 				6BDA109F1FADFD3300684496 /* Products.swift in Sources */,

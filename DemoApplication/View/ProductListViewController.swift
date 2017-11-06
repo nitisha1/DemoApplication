@@ -100,7 +100,7 @@ class ProductListViewController: UIViewController {
                 {
                     if self.collection_Products != nil
                     {
-                        self.collection_Products.reloadData()
+                        self.resfreshList()
                     }
              }
         }

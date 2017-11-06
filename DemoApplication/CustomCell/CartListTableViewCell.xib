@@ -112,6 +112,7 @@
             <connections>
                 <outlet property="btn_Call" destination="bOA-zq-3G0" id="LrX-d7-IWR"/>
                 <outlet property="btn_Remove" destination="lCe-mC-7Os" id="jmp-NF-bBA"/>
+                <outlet property="img_Product" destination="7Yl-rd-i86" id="T3P-Dx-mYZ"/>
                 <outlet property="lbl_Address" destination="jYv-aL-mJz" id="MDq-pH-3gY"/>
                 <outlet property="lbl_Price" destination="Fit-eI-1wx" id="Ifj-fI-trK"/>
                 <outlet property="lbl_ProductName" destination="mP2-iJ-FKF" id="VBQ-7f-EXB"/>

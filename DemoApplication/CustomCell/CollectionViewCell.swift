@@ -20,6 +20,9 @@ class CollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var lbl_PriceValue: UILabel!
     
     @IBOutlet weak var btn_AddToCart: UIButton!
+    lazy var lazyImage:LazyImage = LazyImage()
+
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -33,13 +36,9 @@ class CollectionViewCell: UICollectionViewCell {
         lbl_VendorAdd.text = product.vendoraddress
         lbl_PriceValue.text = product.price
         lbl_vendorName.text = product.vendorname
-        
-     }
+        self.lazyImage.showWithSpinner(imageView:self.img_Product, url:product.productImg)
+}
     
     
-    @IBAction func action_AddToCart(_ sender: UIButton)
-    {
-        
-    }
     
 }

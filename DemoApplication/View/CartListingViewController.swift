@@ -13,6 +13,7 @@ class CartListingViewController: UIViewController {
     
     
     
+    @IBOutlet weak var lbl_TotalPrice: UILabel!
     @IBOutlet weak var tbl_CartList: UITableView!
     var viewModel :CartViewModelType
     
@@ -34,6 +35,11 @@ class CartListingViewController: UIViewController {
         super.viewDidLoad()
         setUpView()
         // Do any additional setup after loading the view.
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        viewModel.UpdateTotalPrice()
     }
 
     override func didReceiveMemoryWarning() {
@@ -64,6 +70,7 @@ class CartListingViewController: UIViewController {
                 if self.tbl_CartList != nil
                 {
                 self.tbl_CartList.reloadData()
+                 self.viewModel.UpdateTotalPrice()
                 }
             }
         }
@@ -77,9 +84,12 @@ class CartListingViewController: UIViewController {
             self.viewModel.cartArray?.remove(at: index!)
             let path  = IndexPath(row: index!, section: 0)
             self.tbl_CartList.deleteRows(at: [path], with: .automatic)
+            self.viewModel.UpdateTotalPrice()
             NotificationCenter.default.post(name: notificationNameRemoveFromCart, object:nil , userInfo: ["data": addItem])
         }
     }
+    
+   
     
 }
 
@@ -124,6 +134,22 @@ extension CartListingViewController : UITableViewDelegate , UITableViewDataSourc
 
 extension CartListingViewController : CartViewDelegate
 {
+    func updatepriceLabel(total : Int)
+    {
+        if total > 0
+        {
+        DispatchQueue.main.async {
+            self.lbl_TotalPrice.isHidden = false
+            if self.lbl_TotalPrice != nil{
+            self.lbl_TotalPrice.text = "Total  \(total.description)"
+            }
+        }
+        }
+        else
+        {
+            lbl_TotalPrice.isHidden = true
+        }
+    }
 }
 
 
